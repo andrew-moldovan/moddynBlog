@@ -6,9 +6,7 @@ module moddynBlog {
 
     return {
       restrict: 'E',
-      scope: {
-        creationDate: '='
-      },
+      scope: {},
       templateUrl: 'app/components/navbar/navbar.html',
       controller: NavbarController,
       controllerAs: 'vm',

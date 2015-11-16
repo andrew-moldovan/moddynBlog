@@ -5,7 +5,7 @@ module moddynBlog {
 
     /* @ngInject */
     constructor () {
-      console.log("inside main");      
+      console.log("inside main");  
     }
 
   }

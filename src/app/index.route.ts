@@ -10,6 +10,12 @@ module moddynBlog {
           templateUrl: 'app/main/main.html',
           controller: 'MainController',
           controllerAs: 'main'
+        })
+        .state('milk', {
+          url: '/milk',
+          templateUrl: 'app/components/posts/milk/milk.html',
+          controller: 'MilkController',
+          controllerAs: 'milk'
         });
 
       $urlRouterProvider.otherwise('/');

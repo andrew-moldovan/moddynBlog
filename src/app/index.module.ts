@@ -6,15 +6,20 @@
 /// <reference path="index.config.ts" />
 /// <reference path="index.run.ts" />
 /// <reference path="main/main.controller.ts" />
+/// <reference path="../app/components/posts/milk/milk.controller.ts" />
+/// <reference path="../app/components/posts/milk/canada.directive.ts" />
 /// <reference path="../app/components/navbar/navbar.directive.ts" />
+/// <reference path="../app/components/d3/d3.service.ts" />
 
 module moddynBlog {
   'use strict';
 
-  angular.module('moddynBlog', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap'])
+  angular.module('moddynBlog', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router', 'ui.bootstrap', 'd3'])
     .config(Config)
     .config(RouterConfig)
     .run(RunBlock)
     .controller('MainController', MainController)
+    .controller('MilkController', MilkController)
     .directive('navbar', navbar)
+    .directive('milkCanada', milkCanada);
 }
