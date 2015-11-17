@@ -1,0 +1,27 @@
+.logo-image{
+	display:block;
+    margin:auto;
+    padding: 20px 0 20px;
+}
+
+.top-line{
+	width: 220px;
+    border-top: 2px solid #e5e5e5;
+    margin: 0 auto;
+}
+
+.sub-content:before{
+	position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #e5e5e5;
+    content: '';
+}
+
+.sub-content{
+	position: relative;
+    padding: 0 0 50px;
+}
