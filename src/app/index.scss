@@ -4,6 +4,7 @@
  */
 $navbar-inverse-link-color: #5AADBB;
 $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$headings-font: 'Noticia Text', serif;
 
 /**
  *  Do not remove this comments bellow. It's the markers used by wiredep to inject
@@ -21,7 +22,7 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 // endinjector
 body{
 	background: #f8f8f8;
-	background-image: url(http://4.bp.blogspot.com/-dIu7R0_OdHc/VQAknXOjgPI/AAAAAAAAESY/RDk5TeCdDRg/s1600/cover.jpg);
+	background-image: url("../assets/images/sky.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
