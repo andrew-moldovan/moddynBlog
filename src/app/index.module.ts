@@ -10,6 +10,7 @@
 /// <reference path="../app/components/posts/milk/canada.directive.ts" />
 /// <reference path="../app/components/navbar/navbar.directive.ts" />
 /// <reference path="../app/components/d3/d3.service.ts" />
+/// <reference path="../app/components/d3/d3BarChartHelper.service.ts" />
 /// <reference path="../app/components/d3/d3Helper.service.ts" />
 
 module moddynBlog {
@@ -19,7 +20,8 @@ module moddynBlog {
     .config(Config)
     .config(RouterConfig)
     .run(RunBlock)
-	.service('d3HelperService', d3HelperService)
+    .service('d3HelperService', d3HelperService)
+    .service('d3BarChartHelperService', d3BarChartHelperService)
     .controller('MainController', MainController)
     .controller('MilkController', MilkController)
     .directive('navbar', navbar)
