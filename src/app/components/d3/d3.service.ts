@@ -26,4 +26,5 @@ angular.module('d3', [])
       return {
         d3: function() { return d.promise; }
       };
-    }]);
+    }
+  ]);
