@@ -28,7 +28,7 @@ module moddynBlog {
           var xAxis = scope.mcc.d3BarChartHelperService.createXAxis(d3, x);
           var yAxis = scope.mcc.d3BarChartHelperService.createYAxis(d3, y);
 
-          var svg = scope.mcc.d3BarChartHelperService.createSVG(d3, width, height, margin, scope.mcc.data, ele);
+          var svg = scope.mcc.d3HelperService.createSVG(d3, width, height, margin, scope.mcc.data, ele, 'testBar');
 
           scope.mcc.d3BarChartHelperService.fillAxisWithData(d3, x, y, scope.mcc.data);
 

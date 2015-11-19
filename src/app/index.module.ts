@@ -8,9 +8,11 @@
 /// <reference path="main/main.controller.ts" />
 /// <reference path="../app/components/posts/milk/milk.controller.ts" />
 /// <reference path="../app/components/posts/milk/canada.directive.ts" />
+/// <reference path="../app/components/posts/milk/lineCanada.directive.ts" />
 /// <reference path="../app/components/navbar/navbar.directive.ts" />
 /// <reference path="../app/components/d3/d3.service.ts" />
 /// <reference path="../app/components/d3/d3BarChartHelper.service.ts" />
+/// <reference path="../app/components/d3/d3MultiLineChartHelper.service.ts" />
 /// <reference path="../app/components/d3/d3Helper.service.ts" />
 
 module moddynBlog {
@@ -22,8 +24,10 @@ module moddynBlog {
     .run(RunBlock)
     .service('d3HelperService', d3HelperService)
     .service('d3BarChartHelperService', d3BarChartHelperService)
+    .service('d3MultiLineChartHelperService', d3MultiLineChartHelperService)
     .controller('MainController', MainController)
     .controller('MilkController', MilkController)
     .directive('navbar', navbar)
-    .directive('milkCanada', milkCanada);
+    .directive('milkCanada', milkCanada)
+    .directive('lineCanada', lineCanada);
 }
