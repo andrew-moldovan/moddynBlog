@@ -21,6 +21,30 @@ module moddynBlog {
       return svg;
     }
 
+    public createXAxis(d3, x, orientation) {
+      var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient(orientation);
+      return xAxis;
+    }
+
+    public createYAxis(d3, y, orientation) {
+      var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient(orientation);
+      return yAxis;
+    }
+
+    public createTitle(svg: any, width: number, margin: any, title: string) {
+      svg.append("text")
+        .attr("x", (width / 2))
+        .attr("y", 0 - (margin.top / 2))
+        .attr("text-anchor", "middle")
+        .style("font-size", "16px")
+        .style("text-decoration", "underline")
+        .text(title);
+    }
+
     public getData(url) {
       return this.$http.get(url)
         .then((response: any) => {

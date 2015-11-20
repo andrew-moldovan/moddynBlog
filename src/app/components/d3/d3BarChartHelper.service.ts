@@ -6,23 +6,6 @@ module moddynBlog {
     /** @ngInject */
     constructor() {}
 
-    public createXAxis(d3, x) {
-      var xAxis = d3.svg.axis()
-        .scale(x)
-        .orient("top")
-        .tickFormat(function(d) {
-          return "";
-        });
-      return xAxis;
-    }
-
-    public createYAxis(d3, y) {
-      var yAxis = d3.svg.axis()
-        .scale(y)
-        .orient("left");
-      return yAxis;
-    }
-
     public fillAxisWithData(d3, x, y, data) {
       x.domain(data.map(function(d) { return d.company; }));
       y.domain([0, d3.max(data, function(d) { return d.avgOrgDepth; })]);
@@ -85,16 +68,6 @@ module moddynBlog {
         .attr('x', legendRectWidth + legendSpacing)
         .attr('y', legendRectHeight - legendSpacing)
         .text(function(d) { return d.company; });
-    }
-
-    public createTitle(svg: any, width: number, margin: any, title: string) {
-      svg.append("text")
-        .attr("x", (width / 2))             
-        .attr("y", 0 - (margin.top / 2))
-        .attr("text-anchor", "middle")  
-        .style("font-size", "16px") 
-        .style("text-decoration", "underline")  
-        .text(title);
     }
 
   }
