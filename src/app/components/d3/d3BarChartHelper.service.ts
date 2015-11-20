@@ -4,71 +4,89 @@ module moddynBlog {
   export class d3BarChartHelperService {
     
     /** @ngInject */
-    constructor() {}
+    constructor(private d3HelperService:any) {}
 
-    public fillAxisWithData(d3, x, y, data) {
-      x.domain(data.map(function(d) { return d.company; }));
-      y.domain([0, d3.max(data, function(d) { return d.avgOrgDepth; })]);
-    }
+    public createBarChart(d3, width, height, margin, data, ele, cssClass, title, parseDate) {
+      var x = d3.scale.ordinal()
+        .rangeRoundBands([0, width], .1);
 
-    public createBarGroupAndTranslate(svg, height, xAxis) {
+      var y = d3.scale.linear()
+        .rangeRound([height, 0]);
+
+      var color = d3.scale.ordinal()
+        .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00", "#ccc", "#bbb", "#bef", "#cae", "#aaa", "#ddd"]);
+
+      var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+      var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+      var svg = this.d3HelperService.createSVG(d3, width, height, margin, data, ele, cssClass);
+
+      color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ref_Date"; }));
+
+      data.forEach(function(d) {
+        var y0 = 0;
+        d.dairy = color.domain().map(function(name) { return { name: name, y0: y0, y1: y0 += +d[name] }; });
+        d.total = d.dairy[d.dairy.length - 1].y1;
+      });
+
+      x.domain(data.map(function(d) { return d.Ref_Date; }));
+      y.domain([0, d3.max(data, function(d) { return d.total; })]);
+
       svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
-    }
 
-    public addDataToBars(svg, data, x, y, height, globalColorScale) {
-      svg.selectAll(".bar")
-        .data(data)
-        .enter().append("rect")
-          .attr("class", "bar")
-          .attr("x", function(d) { return x(d.company); })
-          .attr("width", x.rangeBand())
-          .attr("y", function(d) { return y(d.avgOrgDepth); })
-          .style('fill', function(d, i) { return globalColorScale(i) })
-          .attr("height", function(d) { return height - y(d.avgOrgDepth); });
-    }
-
-    public createDataLabels(svg, data, width, x, y) {
-      var dataLabels = svg.selectAll(".bartext")
-        .data(data)
-        .enter()
+      svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
         .append("text")
-        .text(function(d) {return d.avgOrgDepth})
-        .attr("x", function(d, i) {
-          return i * (width / data.length) + (width / data.length - 1) / 2;
-        })
-        .attr("y", function(d, i) {
-          return y(d.avgOrgDepth) + 15;
-        })
-        .attr("font-family", "sans-serif")
-        .attr("font-size", "11px")
-        .attr("fill", "white")
-        .attr("text-anchor", "middle");
-    }
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Population");
 
-    public createLegend(svg: any, data: any, width: number, globalColorScale: any, legendRectWidth: number = 14, legendRectHeight: number = 14, legendSpacing: number = 4) {
-      var legend = svg.selectAll('.legend')
+      var state = svg.selectAll(".state")
         .data(data)
-        .enter()
-        .append('g')
-        .attr('class', 'legend')
-        .attr('transform', function(d, i) {
-          return "translate(" + (width+10) + "," + i * 20 + ")";
-      });
+        .enter().append("g")
+        .attr("class", "g")
+        .attr("transform", function(d) { return "translate(" + x(d.Ref_Date) + ",0)"; });
 
-      legend.append('rect')
-        .attr('width', legendRectWidth)
-        .attr('height', legendRectHeight)
-        .style('fill', function(d, i) { return globalColorScale(i) })
-        .style('stroke', function(d, i) { return globalColorScale(i) });
+      state.selectAll("rect")
+        .data(function(d) { return d.dairy; })
+        .enter().append("rect")
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) { return y(d.y1); })
+        .attr("height", function(d) { return y(d.y0) - y(d.y1); })
+        .style("fill", function(d) { return color(d.name); });
 
-      legend.append('text')
-        .attr('x', legendRectWidth + legendSpacing)
-        .attr('y', legendRectHeight - legendSpacing)
-        .text(function(d) { return d.company; });
+      var legend = svg.selectAll(".legend")
+        .data(color.domain().slice().reverse())
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+      legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", color);
+
+      legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "end")
+        .text(function(d) { return d; });
     }
+
+    
 
   }
 }

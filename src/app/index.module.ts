@@ -13,6 +13,7 @@
 /// <reference path="../app/components/posts/milk/canadaMilkPerYearLine.directive.ts" />
 /// <reference path="../app/components/posts/milk/canadaCreamLine.directive.ts" />
 /// <reference path="../app/components/posts/milk/canadaCreamPerYearLine.directive.ts" />
+/// <reference path="../app/components/posts/milk/canadaAllPerYearBar.directive.ts" />
 /// <reference path="../app/components/navbar/navbar.directive.ts" />
 /// <reference path="../app/components/d3/d3.service.ts" />
 /// <reference path="../app/components/d3/d3BarChartHelper.service.ts" />
@@ -37,5 +38,6 @@ module moddynBlog {
     .directive('milkCanadaMilkLine', milkCanadaMilkLine)
     .directive('milkCanadaCreamPerYearLine', milkCanadaCreamPerYearLine)
     .directive('milkCanadaCreamLine', milkCanadaCreamLine)
-    .directive('milkCanadaMilkPerYearLine', milkCanadaMilkPerYearLine);
+    .directive('milkCanadaMilkPerYearLine', milkCanadaMilkPerYearLine)
+    .directive('milkCanadaAllPerYearBar', milkCanadaAllPerYearBar);
 }
