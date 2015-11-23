@@ -6,7 +6,7 @@ module moddynBlog {
     /** @ngInject */
     constructor(private d3HelperService:any) {}
 
-    public createBarChart(d3, width, height, margin, data, ele, cssClass, title, parseDate) {
+    public createBarChart(d3, svg, width, height, margin, data, ele, title, parseDate) {
       var x = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);
 
@@ -23,8 +23,6 @@ module moddynBlog {
       var yAxis = d3.svg.axis()
         .scale(y)
         .orient("left");
-
-      var svg = this.d3HelperService.createSVG(d3, height, margin, data, ele, cssClass);
 
       color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ref_Date"; }));
 
@@ -85,8 +83,5 @@ module moddynBlog {
         .style("text-anchor", "end")
         .text(function(d) { return d; });
     }
-
-    
-
   }
 }

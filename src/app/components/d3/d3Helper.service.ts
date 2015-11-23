@@ -11,9 +11,9 @@ module moddynBlog {
       d3.select("svg").remove();
     }
 
-    public createSVG(d3, height, margin, data, ele, cssClass) {
+    public createSVG(d3, width, height, margin, ele, cssClass) {
       var svg = d3.select(ele[0]).append("svg")
-        .attr("width", '100%')
+        .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .attr("class", cssClass)
         .append("g")

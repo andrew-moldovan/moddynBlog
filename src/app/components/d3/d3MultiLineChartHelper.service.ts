@@ -17,7 +17,7 @@ module moddynBlog {
       var yAxis = this.d3HelperService.createYAxis(d3, y, "left");
 
       var line = this.createLine(d3, x, y, "date", "litres");
-      var svg = this.d3HelperService.createSVG(d3, height, margin, data, ele, cssClass);
+      var svg = this.d3HelperService.createSVG(d3, width, height, margin, ele, cssClass);
       this.createColorDomain(d3, color, data);
       this.parseDates(data, parseDate, "Ref_Date");
       var milk = this.createDataArray(color, data, "Ref_Date");
