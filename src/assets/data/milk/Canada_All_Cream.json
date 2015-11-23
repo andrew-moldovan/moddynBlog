@@ -1,0 +1,4106 @@
+[
+  {
+    "Ref_Date":"1977/01",
+    "Cereal Cream":0.184064549,
+    "Light_Cream":null,
+    "Sour Cream":0.024583964,
+    "Table Cream":0.018532526,
+    "Whipping Cream":0.031854093,
+    "Total":0.259035132
+  },
+  {
+    "Ref_Date":"1977/02",
+    "Cereal Cream":0.183140024,
+    "Light_Cream":null,
+    "Sour Cream":0.025046226,
+    "Table Cream":0.017734073,
+    "Whipping Cream":0.032652547,
+    "Total":0.25857287
+  },
+  {
+    "Ref_Date":"1977/03",
+    "Cereal Cream":0.202386956,
+    "Light_Cream":null,
+    "Sour Cream":0.028492184,
+    "Table Cream":0.020003362,
+    "Whipping Cream":0.037779459,
+    "Total":0.288661961
+  },
+  {
+    "Ref_Date":"1977/04",
+    "Cereal Cream":0.188308959,
+    "Light_Cream":null,
+    "Sour Cream":0.02845016,
+    "Table Cream":0.02008741,
+    "Whipping Cream":0.040805177,
+    "Total":0.277651706
+  },
+  {
+    "Ref_Date":"1977/05",
+    "Cereal Cream":0.187216339,
+    "Light_Cream":null,
+    "Sour Cream":0.029206589,
+    "Table Cream":0.01987729,
+    "Whipping Cream":0.038577912,
+    "Total":0.27487813
+  },
+  {
+    "Ref_Date":"1977/06",
+    "Cereal Cream":0.196755757,
+    "Light_Cream":null,
+    "Sour Cream":0.035468146,
+    "Table Cream":0.023449319,
+    "Whipping Cream":0.048201378,
+    "Total":0.3038746
+  },
+  {
+    "Ref_Date":"1977/07",
+    "Cereal Cream":0.184863002,
+    "Light_Cream":null,
+    "Sour Cream":0.033829215,
+    "Table Cream":0.024457892,
+    "Whipping Cream":0.050134476,
+    "Total":0.293284585
+  },
+  {
+    "Ref_Date":"1977/08",
+    "Cereal Cream":0.194276349,
+    "Light_Cream":null,
+    "Sour Cream":0.032568499,
+    "Table Cream":0.021768364,
+    "Whipping Cream":0.042906371,
+    "Total":0.291519583
+  },
+  {
+    "Ref_Date":"1977/09",
+    "Cereal Cream":0.199991595,
+    "Light_Cream":null,
+    "Sour Cream":0.030971592,
+    "Table Cream":0.020843839,
+    "Whipping Cream":0.037107077,
+    "Total":0.288914103
+  },
+  {
+    "Ref_Date":"1977/10",
+    "Cereal Cream":0.197554211,
+    "Light_Cream":null,
+    "Sour Cream":0.027525635,
+    "Table Cream":0.01987729,
+    "Whipping Cream":0.039544461,
+    "Total":0.284501597
+  },
+  {
+    "Ref_Date":"1977/11",
+    "Cereal Cream":0.202386956,
+    "Light_Cream":null,
+    "Sour Cream":0.028029921,
+    "Table Cream":0.02008741,
+    "Whipping Cream":0.035131955,
+    "Total":0.285636242
+  },
+  {
+    "Ref_Date":"1977/12",
+    "Cereal Cream":0.224869726,
+    "Light_Cream":null,
+    "Sour Cream":0.042696251,
+    "Table Cream":0.02508825,
+    "Whipping Cream":0.057572701,
+    "Total":0.350226928
+  },
+  {
+    "Ref_Date":"1978/01",
+    "Cereal Cream":0.190838742,
+    "Light_Cream":null,
+    "Sour Cream":0.02616908,
+    "Table Cream":0.017681811,
+    "Whipping Cream":0.032534532,
+    "Total":0.267224165
+  },
+  {
+    "Ref_Date":"1978/02",
+    "Cereal Cream":0.190464304,
+    "Light_Cream":null,
+    "Sour Cream":0.024296888,
+    "Table Cream":0.017806623,
+    "Whipping Cream":0.033325012,
+    "Total":0.265892827
+  },
+  {
+    "Ref_Date":"1978/03",
+    "Cereal Cream":0.21455317,
+    "Light_Cream":null,
+    "Sour Cream":0.02754202,
+    "Table Cream":0.020261275,
+    "Whipping Cream":0.04160426,
+    "Total":0.303960725
+  },
+  {
+    "Ref_Date":"1978/04",
+    "Cereal Cream":0.186387086,
+    "Light_Cream":null,
+    "Sour Cream":0.025836246,
+    "Table Cream":0.018597104,
+    "Whipping Cream":0.037194209,
+    "Total":0.268014645
+  },
+  {
+    "Ref_Date":"1978/05",
+    "Cereal Cream":0.204609752,
+    "Light_Cream":null,
+    "Sour Cream":0.02978865,
+    "Table Cream":0.02080213,
+    "Whipping Cream":0.045057414,
+    "Total":0.300257946
+  },
+  {
+    "Ref_Date":"1978/06",
+    "Cereal Cream":0.196080879,
+    "Light_Cream":null,
+    "Sour Cream":0.03203528,
+    "Table Cream":0.024920952,
+    "Whipping Cream":0.058370777,
+    "Total":0.311407888
+  },
+  {
+    "Ref_Date":"1978/07",
+    "Cereal Cream":0.179023132,
+    "Light_Cream":null,
+    "Sour Cream":0.029705442,
+    "Table Cream":0.024796139,
+    "Whipping Cream":0.052962223,
+    "Total":0.286486936
+  },
+  {
+    "Ref_Date":"1978/08",
+    "Cereal Cream":0.207314029,
+    "Light_Cream":null,
+    "Sour Cream":0.033533034,
+    "Table Cream":0.023173573,
+    "Whipping Cream":0.046804793,
+    "Total":0.310825429
+  },
+  {
+    "Ref_Date":"1978/09",
+    "Cereal Cream":0.214303545,
+    "Light_Cream":null,
+    "Sour Cream":0.028498918,
+    "Table Cream":0.021301381,
+    "Whipping Cream":0.043684473,
+    "Total":0.307788317
+  },
+  {
+    "Ref_Date":"1978/10",
+    "Cereal Cream":0.222707605,
+    "Light_Cream":null,
+    "Sour Cream":0.028374106,
+    "Table Cream":0.02109336,
+    "Whipping Cream":0.047636878,
+    "Total":0.319811949
+  },
+  {
+    "Ref_Date":"1978/11",
+    "Cereal Cream":0.217049426,
+    "Light_Cream":null,
+    "Sour Cream":0.026876352,
+    "Table Cream":0.021176568,
+    "Whipping Cream":0.043518056,
+    "Total":0.308620402
+  },
+  {
+    "Ref_Date":"1978/12",
+    "Cereal Cream":0.231818938,
+    "Light_Cream":null,
+    "Sour Cream":0.038275919,
+    "Table Cream":0.024421701,
+    "Whipping Cream":0.066941255,
+    "Total":0.361457813
+  },
+  {
+    "Ref_Date":"1979/01",
+    "Cereal Cream":0.204596944,
+    "Light_Cream":null,
+    "Sour Cream":0.025703341,
+    "Table Cream":0.019318697,
+    "Whipping Cream":0.041891502,
+    "Total":0.291510484
+  },
+  {
+    "Ref_Date":"1979/02",
+    "Cereal Cream":0.200148289,
+    "Light_Cream":null,
+    "Sour Cream":0.024467603,
+    "Table Cream":0.018412489,
+    "Whipping Cream":0.041108868,
+    "Total":0.284137249
+  },
+  {
+    "Ref_Date":"1979/03",
+    "Cereal Cream":0.217201466,
+    "Light_Cream":null,
+    "Sour Cream":0.028010051,
+    "Table Cream":0.020719199,
+    "Whipping Cream":0.04609301,
+    "Total":0.312023726
+  },
+  {
+    "Ref_Date":"1979/04",
+    "Cereal Cream":0.203114059,
+    "Light_Cream":null,
+    "Sour Cream":0.029698892,
+    "Table Cream":0.01944227,
+    "Whipping Cream":0.050212135,
+    "Total":0.302467356
+  },
+  {
+    "Ref_Date":"1979/05",
+    "Cereal Cream":0.204844091,
+    "Light_Cream":null,
+    "Sour Cream":0.030316761,
+    "Table Cream":0.022243276,
+    "Whipping Cream":0.052601227,
+    "Total":0.310005355
+  },
+  {
+    "Ref_Date":"1979/06",
+    "Cereal Cream":0.205050047,
+    "Light_Cream":null,
+    "Sour Cream":0.034353503,
+    "Table Cream":0.030687482,
+    "Whipping Cream":0.059397784,
+    "Total":0.329488816
+  },
+  {
+    "Ref_Date":"1979/07",
+    "Cereal Cream":0.203031676,
+    "Light_Cream":null,
+    "Sour Cream":0.034518268,
+    "Table Cream":0.025538576,
+    "Whipping Cream":0.057708943,
+    "Total":0.320797463
+  },
+  {
+    "Ref_Date":"1979/08",
+    "Cereal Cream":0.20710961,
+    "Light_Cream":null,
+    "Sour Cream":0.035136137,
+    "Table Cream":0.023973308,
+    "Whipping Cream":0.052148124,
+    "Total":0.318367179
+  },
+  {
+    "Ref_Date":"1979/09",
+    "Cereal Cream":0.21073444,
+    "Light_Cream":null,
+    "Sour Cream":0.030357952,
+    "Table Cream":0.023849734,
+    "Whipping Cream":0.043209622,
+    "Total":0.308151748
+  },
+  {
+    "Ref_Date":"1979/10",
+    "Cereal Cream":0.232565803,
+    "Light_Cream":null,
+    "Sour Cream":0.031017012,
+    "Table Cream":0.021913746,
+    "Whipping Cream":0.050170944,
+    "Total":0.335667505
+  },
+  {
+    "Ref_Date":"1979/11",
+    "Cereal Cream":0.225645673,
+    "Light_Cream":null,
+    "Sour Cream":0.029946039,
+    "Table Cream":0.022160893,
+    "Whipping Cream":0.044239404,
+    "Total":0.321992009
+  },
+  {
+    "Ref_Date":"1979/12",
+    "Cereal Cream":0.230712197,
+    "Light_Cream":null,
+    "Sour Cream":0.040408617,
+    "Table Cream":0.025744532,
+    "Whipping Cream":0.066647444,
+    "Total":0.36351279
+  },
+  {
+    "Ref_Date":"1980/01",
+    "Cereal Cream":0.203391209,
+    "Light_Cream":null,
+    "Sour Cream":0.02797544,
+    "Table Cream":0.019924369,
+    "Whipping Cream":0.04175985,
+    "Total":0.293050868
+  },
+  {
+    "Ref_Date":"1980/02",
+    "Cereal Cream":0.202130688,
+    "Light_Cream":null,
+    "Sour Cream":0.027812792,
+    "Table Cream":0.019924369,
+    "Whipping Cream":0.042003822,
+    "Total":0.291871671
+  },
+  {
+    "Ref_Date":"1980/03",
+    "Cereal Cream":0.209612491,
+    "Light_Cream":null,
+    "Sour Cream":0.030577807,
+    "Table Cream":0.021062904,
+    "Whipping Cream":0.045012809,
+    "Total":0.306266011
+  },
+  {
+    "Ref_Date":"1980/04",
+    "Cereal Cream":0.203960477,
+    "Light_Cream":null,
+    "Sour Cream":0.030659131,
+    "Table Cream":0.020737608,
+    "Whipping Cream":0.050258204,
+    "Total":0.30561542
+  },
+  {
+    "Ref_Date":"1980/05",
+    "Cereal Cream":0.213516041,
+    "Light_Cream":null,
+    "Sour Cream":0.033790103,
+    "Table Cream":0.022608059,
+    "Whipping Cream":0.051884683,
+    "Total":0.321798886
+  },
+  {
+    "Ref_Date":"1980/06",
+    "Cereal Cream":0.208595942,
+    "Light_Cream":null,
+    "Sour Cream":0.033627455,
+    "Table Cream":0.022974017,
+    "Whipping Cream":0.054731021,
+    "Total":0.319928435
+  },
+  {
+    "Ref_Date":"1980/07",
+    "Cereal Cream":0.23262717,
+    "Light_Cream":null,
+    "Sour Cream":0.042898386,
+    "Table Cream":0.032814215,
+    "Whipping Cream":0.068637417,
+    "Total":0.376977188
+  },
+  {
+    "Ref_Date":"1980/08",
+    "Cereal Cream":0.211401618,
+    "Light_Cream":null,
+    "Sour Cream":0.039198146,
+    "Table Cream":0.02386858,
+    "Whipping Cream":0.054649697,
+    "Total":0.329118041
+  },
+  {
+    "Ref_Date":"1980/09",
+    "Cereal Cream":0.250762412,
+    "Light_Cream":null,
+    "Sour Cream":0.034196723,
+    "Table Cream":0.022486073,
+    "Whipping Cream":0.048631724,
+    "Total":0.356076932
+  },
+  {
+    "Ref_Date":"1980/10",
+    "Cereal Cream":0.232505184,
+    "Light_Cream":null,
+    "Sour Cream":0.036473793,
+    "Table Cream":0.023136665,
+    "Whipping Cream":0.057699345,
+    "Total":0.349814987
+  },
+  {
+    "Ref_Date":"1980/11",
+    "Cereal Cream":0.24433782,
+    "Light_Cream":null,
+    "Sour Cream":0.033424145,
+    "Table Cream":0.021672834,
+    "Whipping Cream":0.047289879,
+    "Total":0.346724678
+  },
+  {
+    "Ref_Date":"1980/12",
+    "Cereal Cream":0.23754727,
+    "Light_Cream":null,
+    "Sour Cream":0.050014232,
+    "Table Cream":0.026470947,
+    "Whipping Cream":0.076525841,
+    "Total":0.39055829
+  },
+  {
+    "Ref_Date":"1981/01",
+    "Cereal Cream":0.231927711,
+    "Light_Cream":null,
+    "Sour Cream":0.032730924,
+    "Table Cream":0.019116466,
+    "Whipping Cream":0.04497992,
+    "Total":0.328755021
+  },
+  {
+    "Ref_Date":"1981/02",
+    "Cereal Cream":0.204738956,
+    "Light_Cream":null,
+    "Sour Cream":0.034457831,
+    "Table Cream":0.01935743,
+    "Whipping Cream":0.04497992,
+    "Total":0.303534137
+  },
+  {
+    "Ref_Date":"1981/03",
+    "Cereal Cream":0.219678715,
+    "Light_Cream":null,
+    "Sour Cream":0.035220884,
+    "Table Cream":0.020682731,
+    "Whipping Cream":0.049518072,
+    "Total":0.325100402
+  },
+  {
+    "Ref_Date":"1981/04",
+    "Cereal Cream":0.215341365,
+    "Light_Cream":null,
+    "Sour Cream":0.036144578,
+    "Table Cream":0.021164659,
+    "Whipping Cream":0.057831325,
+    "Total":0.330481927
+  },
+  {
+    "Ref_Date":"1981/05",
+    "Cereal Cream":0.213373494,
+    "Light_Cream":null,
+    "Sour Cream":0.037951807,
+    "Table Cream":0.022048193,
+    "Whipping Cream":0.054216867,
+    "Total":0.327590361
+  },
+  {
+    "Ref_Date":"1981/06",
+    "Cereal Cream":0.270722892,
+    "Light_Cream":null,
+    "Sour Cream":0.045341365,
+    "Table Cream":0.024779116,
+    "Whipping Cream":0.059317269,
+    "Total":0.400160642
+  },
+  {
+    "Ref_Date":"1981/07",
+    "Cereal Cream":0.248594378,
+    "Light_Cream":null,
+    "Sour Cream":0.048232932,
+    "Table Cream":0.02746988,
+    "Whipping Cream":0.066064257,
+    "Total":0.390361447
+  },
+  {
+    "Ref_Date":"1981/08",
+    "Cereal Cream":0.217148594,
+    "Light_Cream":null,
+    "Sour Cream":0.044216867,
+    "Table Cream":0.024096386,
+    "Whipping Cream":0.054457831,
+    "Total":0.339919678
+  },
+  {
+    "Ref_Date":"1981/09",
+    "Cereal Cream":0.224176707,
+    "Light_Cream":null,
+    "Sour Cream":0.040160643,
+    "Table Cream":0.022329317,
+    "Whipping Cream":0.047630522,
+    "Total":0.334297189
+  },
+  {
+    "Ref_Date":"1981/10",
+    "Cereal Cream":0.238473896,
+    "Light_Cream":null,
+    "Sour Cream":0.037871486,
+    "Table Cream":0.021927711,
+    "Whipping Cream":0.056666667,
+    "Total":0.35493976
+  },
+  {
+    "Ref_Date":"1981/11",
+    "Cereal Cream":0.223293173,
+    "Light_Cream":null,
+    "Sour Cream":0.037228916,
+    "Table Cream":0.020843373,
+    "Whipping Cream":0.045180723,
+    "Total":0.326546185
+  },
+  {
+    "Ref_Date":"1981/12",
+    "Cereal Cream":0.232289157,
+    "Light_Cream":null,
+    "Sour Cream":0.05746988,
+    "Table Cream":0.025381526,
+    "Whipping Cream":0.079718876,
+    "Total":0.394859439
+  },
+  {
+    "Ref_Date":"1982/01",
+    "Cereal Cream":0.198674708,
+    "Light_Cream":null,
+    "Sour Cream":0.033251329,
+    "Table Cream":0.018649314,
+    "Whipping Cream":0.041623681,
+    "Total":0.292199032
+  },
+  {
+    "Ref_Date":"1982/02",
+    "Cereal Cream":0.198357273,
+    "Light_Cream":null,
+    "Sour Cream":0.03448139,
+    "Table Cream":0.019046107,
+    "Whipping Cream":0.044004444,
+    "Total":0.295889214
+  },
+  {
+    "Ref_Date":"1982/03",
+    "Cereal Cream":0.225101182,
+    "Light_Cream":null,
+    "Sour Cream":0.041266566,
+    "Table Cream":0.021109436,
+    "Whipping Cream":0.05205936,
+    "Total":0.339536544
+  },
+  {
+    "Ref_Date":"1982/04",
+    "Cereal Cream":0.215895564,
+    "Light_Cream":null,
+    "Sour Cream":0.040671375,
+    "Table Cream":0.021585588,
+    "Whipping Cream":0.056384414,
+    "Total":0.334536941
+  },
+  {
+    "Ref_Date":"1982/05",
+    "Cereal Cream":0.207840648,
+    "Light_Cream":null,
+    "Sour Cream":0.043726688,
+    "Table Cream":0.020950718,
+    "Whipping Cream":0.055511467,
+    "Total":0.328029521
+  },
+  {
+    "Ref_Date":"1982/06",
+    "Cereal Cream":0.199785731,
+    "Light_Cream":null,
+    "Sour Cream":0.048289818,
+    "Table Cream":0.025117054,
+    "Whipping Cream":0.065391636,
+    "Total":0.338584239
+  },
+  {
+    "Ref_Date":"1982/07",
+    "Cereal Cream":0.211173716,
+    "Light_Cream":null,
+    "Sour Cream":0.049876994,
+    "Table Cream":0.028608841,
+    "Whipping Cream":0.073843346,
+    "Total":0.363502897
+  },
+  {
+    "Ref_Date":"1982/08",
+    "Cereal Cream":0.211332434,
+    "Light_Cream":null,
+    "Sour Cream":0.046940719,
+    "Table Cream":0.024442505,
+    "Whipping Cream":0.059558765,
+    "Total":0.342274423
+  },
+  {
+    "Ref_Date":"1982/09",
+    "Cereal Cream":0.212681533,
+    "Light_Cream":null,
+    "Sour Cream":0.042814062,
+    "Table Cream":0.0221411,
+    "Whipping Cream":0.050194429,
+    "Total":0.327831124
+  },
+  {
+    "Ref_Date":"1982/10",
+    "Cereal Cream":0.204983731,
+    "Light_Cream":null,
+    "Sour Cream":0.039163558,
+    "Table Cream":0.022934688,
+    "Whipping Cream":0.057574796,
+    "Total":0.324656773
+  },
+  {
+    "Ref_Date":"1982/11",
+    "Cereal Cream":0.21807793,
+    "Light_Cream":null,
+    "Sour Cream":0.043726688,
+    "Table Cream":0.022458535,
+    "Whipping Cream":0.050472185,
+    "Total":0.334735338
+  },
+  {
+    "Ref_Date":"1982/12",
+    "Cereal Cream":0.226847076,
+    "Light_Cream":null,
+    "Sour Cream":0.065709071,
+    "Table Cream":0.027021665,
+    "Whipping Cream":0.082850567,
+    "Total":0.402428379
+  },
+  {
+    "Ref_Date":"1983/01",
+    "Cereal Cream":0.190760528,
+    "Light_Cream":null,
+    "Sour Cream":0.040972659,
+    "Table Cream":0.020977373,
+    "Whipping Cream":0.045765242,
+    "Total":0.298475802
+  },
+  {
+    "Ref_Date":"1983/02",
+    "Cereal Cream":0.190996229,
+    "Light_Cream":null,
+    "Sour Cream":0.039637021,
+    "Table Cream":0.019798869,
+    "Whipping Cream":0.046393777,
+    "Total":0.296825896
+  },
+  {
+    "Ref_Date":"1983/03",
+    "Cereal Cream":0.221323067,
+    "Light_Cream":null,
+    "Sour Cream":0.050793526,
+    "Table Cream":0.022273727,
+    "Whipping Cream":0.058414519,
+    "Total":0.352804839
+  },
+  {
+    "Ref_Date":"1983/04",
+    "Cereal Cream":0.197910119,
+    "Light_Cream":null,
+    "Sour Cream":0.04415462,
+    "Table Cream":0.021959459,
+    "Whipping Cream":0.052207731,
+    "Total":0.316231929
+  },
+  {
+    "Ref_Date":"1983/05",
+    "Cereal Cream":0.210087995,
+    "Light_Cream":null,
+    "Sour Cream":0.048632935,
+    "Table Cream":0.023845066,
+    "Whipping Cream":0.060535827,
+    "Total":0.343101823
+  },
+  {
+    "Ref_Date":"1983/06",
+    "Cereal Cream":0.206316782,
+    "Light_Cream":null,
+    "Sour Cream":0.058610937,
+    "Table Cream":0.023609365,
+    "Whipping Cream":0.065485544,
+    "Total":0.354022628
+  },
+  {
+    "Ref_Date":"1983/07",
+    "Cereal Cream":0.196338781,
+    "Light_Cream":null,
+    "Sour Cream":0.055743243,
+    "Table Cream":0.028834067,
+    "Whipping Cream":0.072281584,
+    "Total":0.353197675
+  },
+  {
+    "Ref_Date":"1983/08",
+    "Cereal Cream":0.210245129,
+    "Light_Cream":null,
+    "Sour Cream":0.052011314,
+    "Table Cream":0.025887806,
+    "Whipping Cream":0.060064425,
+    "Total":0.348208674
+  },
+  {
+    "Ref_Date":"1983/09",
+    "Cereal Cream":0.219987429,
+    "Light_Cream":null,
+    "Sour Cream":0.051422062,
+    "Table Cream":0.02412005,
+    "Whipping Cream":0.055389692,
+    "Total":0.350919233
+  },
+  {
+    "Ref_Date":"1983/10",
+    "Cereal Cream":0.215116279,
+    "Light_Cream":null,
+    "Sour Cream":0.046040226,
+    "Table Cream":0.023687932,
+    "Whipping Cream":0.060142992,
+    "Total":0.344987429
+  },
+  {
+    "Ref_Date":"1983/11",
+    "Cereal Cream":0.222619422,
+    "Light_Cream":null,
+    "Sour Cream":0.049890006,
+    "Table Cream":0.024709302,
+    "Whipping Cream":0.053425519,
+    "Total":0.350644249
+  },
+  {
+    "Ref_Date":"1983/12",
+    "Cereal Cream":0.237193589,
+    "Light_Cream":null,
+    "Sour Cream":0.071613765,
+    "Table Cream":0.029855437,
+    "Whipping Cream":0.091334067,
+    "Total":0.429996858
+  },
+  {
+    "Ref_Date":"1984/01",
+    "Cereal Cream":0.203680647,
+    "Light_Cream":null,
+    "Sour Cream":0.044510155,
+    "Table Cream":0.02128239,
+    "Whipping Cream":0.045366119,
+    "Total":0.314839311
+  },
+  {
+    "Ref_Date":"1984/02",
+    "Cereal Cream":0.205159132,
+    "Light_Cream":null,
+    "Sour Cream":0.044510155,
+    "Table Cream":0.020192981,
+    "Whipping Cream":0.051513501,
+    "Total":0.321375769
+  },
+  {
+    "Ref_Date":"1984/03",
+    "Cereal Cream":0.224457241,
+    "Light_Cream":null,
+    "Sour Cream":0.047856198,
+    "Table Cream":0.022605245,
+    "Whipping Cream":0.056376936,
+    "Total":0.35129562
+  },
+  {
+    "Ref_Date":"1984/04",
+    "Cereal Cream":0.198778305,
+    "Light_Cream":null,
+    "Sour Cream":0.05353669,
+    "Table Cream":0.021632558,
+    "Whipping Cream":0.062991207,
+    "Total":0.33693876
+  },
+  {
+    "Ref_Date":"1984/05",
+    "Cereal Cream":0.22507976,
+    "Light_Cream":null,
+    "Sour Cream":0.055131896,
+    "Table Cream":0.023422302,
+    "Whipping Cream":0.064041709,
+    "Total":0.367675667
+  },
+  {
+    "Ref_Date":"1984/06",
+    "Cereal Cream":0.221733717,
+    "Light_Cream":null,
+    "Sour Cream":0.061785075,
+    "Table Cream":0.026923975,
+    "Whipping Cream":0.074313283,
+    "Total":0.38475605
+  },
+  {
+    "Ref_Date":"1984/07",
+    "Cereal Cream":0.216948097,
+    "Light_Cream":null,
+    "Sour Cream":0.064897673,
+    "Table Cream":0.028363551,
+    "Whipping Cream":0.078126216,
+    "Total":0.388335537
+  },
+  {
+    "Ref_Date":"1984/08",
+    "Cereal Cream":0.23527352,
+    "Light_Cream":null,
+    "Sour Cream":0.065325656,
+    "Table Cream":0.026029103,
+    "Whipping Cream":0.066843047,
+    "Total":0.393471326
+  },
+  {
+    "Ref_Date":"1984/09",
+    "Cereal Cream":0.222706404,
+    "Light_Cream":null,
+    "Sour Cream":0.049451405,
+    "Table Cream":0.023344487,
+    "Whipping Cream":0.056221306,
+    "Total":0.351723602
+  },
+  {
+    "Ref_Date":"1984/10",
+    "Cereal Cream":0.239864602,
+    "Light_Cream":null,
+    "Sour Cream":0.056338028,
+    "Table Cream":0.024239359,
+    "Whipping Cream":0.066726325,
+    "Total":0.387168314
+  },
+  {
+    "Ref_Date":"1984/11",
+    "Cereal Cream":0.236907634,
+    "Light_Cream":null,
+    "Sour Cream":0.056804918,
+    "Table Cream":0.023850284,
+    "Whipping Cream":0.058400125,
+    "Total":0.375962961
+  },
+  {
+    "Ref_Date":"1984/12",
+    "Cereal Cream":0.238463933,
+    "Light_Cream":null,
+    "Sour Cream":0.08038285,
+    "Table Cream":0.027429772,
+    "Whipping Cream":0.092638705,
+    "Total":0.43891526
+  },
+  {
+    "Ref_Date":"1985/01",
+    "Cereal Cream":0.214632642,
+    "Light_Cream":null,
+    "Sour Cream":0.050998381,
+    "Table Cream":0.023513993,
+    "Whipping Cream":0.048801172,
+    "Total":0.337946188
+  },
+  {
+    "Ref_Date":"1985/02",
+    "Cereal Cream":0.206383471,
+    "Light_Cream":null,
+    "Sour Cream":0.046603963,
+    "Table Cream":0.02278159,
+    "Whipping Cream":0.051268214,
+    "Total":0.327037238
+  },
+  {
+    "Ref_Date":"1985/03",
+    "Cereal Cream":0.220568962,
+    "Light_Cream":null,
+    "Sour Cream":0.052810115,
+    "Table Cream":0.025557012,
+    "Whipping Cream":0.059787218,
+    "Total":0.358723307
+  },
+  {
+    "Ref_Date":"1985/04",
+    "Cereal Cream":0.233096908,
+    "Light_Cream":null,
+    "Sour Cream":0.054313469,
+    "Table Cream":0.025711202,
+    "Whipping Cream":0.063757613,
+    "Total":0.376879192
+  },
+  {
+    "Ref_Date":"1985/05",
+    "Cereal Cream":0.231400817,
+    "Light_Cream":null,
+    "Sour Cream":0.065569347,
+    "Table Cream":0.027754221,
+    "Whipping Cream":0.06988667,
+    "Total":0.394611055
+  },
+  {
+    "Ref_Date":"1985/06",
+    "Cereal Cream":0.22214941,
+    "Light_Cream":null,
+    "Sour Cream":0.05990286,
+    "Table Cream":0.031686069,
+    "Whipping Cream":0.081181096,
+    "Total":0.394919435
+  },
+  {
+    "Ref_Date":"1985/07",
+    "Cereal Cream":0.215249403,
+    "Light_Cream":null,
+    "Sour Cream":0.068537507,
+    "Table Cream":0.03338216,
+    "Whipping Cream":0.082453165,
+    "Total":0.399622235
+  },
+  {
+    "Ref_Date":"1985/08",
+    "Cereal Cream":0.259810346,
+    "Light_Cream":null,
+    "Sour Cream":0.063256495,
+    "Table Cream":0.035309537,
+    "Whipping Cream":0.07643975,
+    "Total":0.434816128
+  },
+  {
+    "Ref_Date":"1985/09",
+    "Cereal Cream":0.223961144,
+    "Light_Cream":null,
+    "Sour Cream":0.048724077,
+    "Table Cream":0.029720145,
+    "Whipping Cream":0.060288336,
+    "Total":0.362693702
+  },
+  {
+    "Ref_Date":"1985/10",
+    "Cereal Cream":0.254298049,
+    "Light_Cream":null,
+    "Sour Cream":0.050381621,
+    "Table Cream":0.031146404,
+    "Whipping Cream":0.074666564,
+    "Total":0.410492638
+  },
+  {
+    "Ref_Date":"1985/11",
+    "Cereal Cream":0.255493023,
+    "Light_Cream":null,
+    "Sour Cream":0.055084419,
+    "Table Cream":0.031223499,
+    "Whipping Cream":0.062022974,
+    "Total":0.403823915
+  },
+  {
+    "Ref_Date":"1985/12",
+    "Cereal Cream":0.262894148,
+    "Light_Cream":null,
+    "Sour Cream":0.086192275,
+    "Table Cream":0.035656464,
+    "Whipping Cream":0.102420785,
+    "Total":0.487163672
+  },
+  {
+    "Ref_Date":"1986/01",
+    "Cereal Cream":0.236032667,
+    "Light_Cream":null,
+    "Sour Cream":0.051557014,
+    "Table Cream":0.027438559,
+    "Whipping Cream":0.05274004,
+    "Total":0.36776828
+  },
+  {
+    "Ref_Date":"1986/02",
+    "Cereal Cream":0.22343917,
+    "Light_Cream":null,
+    "Sour Cream":0.048122424,
+    "Table Cream":0.027171424,
+    "Whipping Cream":0.058273546,
+    "Total":0.357006564
+  },
+  {
+    "Ref_Date":"1986/03",
+    "Cereal Cream":0.244504656,
+    "Light_Cream":null,
+    "Sour Cream":0.059761868,
+    "Table Cream":0.03052969,
+    "Whipping Cream":0.0726225,
+    "Total":0.407418714
+  },
+  {
+    "Ref_Date":"1986/04",
+    "Cereal Cream":0.237292016,
+    "Light_Cream":null,
+    "Sour Cream":0.046863074,
+    "Table Cream":0.028736071,
+    "Whipping Cream":0.061937109,
+    "Total":0.37482827
+  },
+  {
+    "Ref_Date":"1986/05",
+    "Cereal Cream":0.243703251,
+    "Light_Cream":null,
+    "Sour Cream":0.06556251,
+    "Table Cream":0.031750878,
+    "Whipping Cream":0.074110823,
+    "Total":0.415127462
+  },
+  {
+    "Ref_Date":"1986/06",
+    "Cereal Cream":0.228972676,
+    "Light_Cream":null,
+    "Sour Cream":0.070256449,
+    "Table Cream":0.033391849,
+    "Whipping Cream":0.082506488,
+    "Total":0.415127462
+  },
+  {
+    "Ref_Date":"1986/07",
+    "Cereal Cream":0.23572737,
+    "Light_Cream":null,
+    "Sour Cream":0.07441612,
+    "Table Cream":0.036597466,
+    "Whipping Cream":0.091818043,
+    "Total":0.438558999
+  },
+  {
+    "Ref_Date":"1986/08",
+    "Cereal Cream":0.234735155,
+    "Light_Cream":null,
+    "Sour Cream":0.069760342,
+    "Table Cream":0.034422226,
+    "Whipping Cream":0.075713632,
+    "Total":0.414631355
+  },
+  {
+    "Ref_Date":"1986/09",
+    "Cereal Cream":0.249122271,
+    "Light_Cream":null,
+    "Sour Cream":0.060830408,
+    "Table Cream":0.033353686,
+    "Whipping Cream":0.064837429,
+    "Total":0.408143794
+  },
+  {
+    "Ref_Date":"1986/10",
+    "Cereal Cream":0.261830255,
+    "Light_Cream":null,
+    "Sour Cream":0.059494734,
+    "Table Cream":0.034574874,
+    "Whipping Cream":0.076438712,
+    "Total":0.432338575
+  },
+  {
+    "Ref_Date":"1986/11",
+    "Cereal Cream":0.240650282,
+    "Light_Cream":null,
+    "Sour Cream":0.047969776,
+    "Table Cream":0.032552282,
+    "Whipping Cream":0.060944894,
+    "Total":0.382117234
+  },
+  {
+    "Ref_Date":"1986/12",
+    "Cereal Cream":0.26499771,
+    "Light_Cream":null,
+    "Sour Cream":0.091894367,
+    "Table Cream":0.036940925,
+    "Whipping Cream":0.113226988,
+    "Total":0.50705999
+  },
+  {
+    "Ref_Date":"1987/01",
+    "Cereal Cream":0.213446328,
+    "Light_Cream":null,
+    "Sour Cream":0.055630885,
+    "Table Cream":0.026817326,
+    "Whipping Cream":0.050998117,
+    "Total":0.346892656
+  },
+  {
+    "Ref_Date":"1987/02",
+    "Cereal Cream":0.215630885,
+    "Light_Cream":null,
+    "Sour Cream":0.053785311,
+    "Table Cream":0.028436911,
+    "Whipping Cream":0.058116761,
+    "Total":0.355969868
+  },
+  {
+    "Ref_Date":"1987/03",
+    "Cereal Cream":0.249340866,
+    "Light_Cream":null,
+    "Sour Cream":0.057777778,
+    "Table Cream":0.032843691,
+    "Whipping Cream":0.064256121,
+    "Total":0.404218456
+  },
+  {
+    "Ref_Date":"1987/04",
+    "Cereal Cream":0.226365348,
+    "Light_Cream":null,
+    "Sour Cream":0.060979284,
+    "Table Cream":0.029830508,
+    "Whipping Cream":0.076045198,
+    "Total":0.393220338
+  },
+  {
+    "Ref_Date":"1987/05",
+    "Cereal Cream":0.238305085,
+    "Light_Cream":null,
+    "Sour Cream":0.064444444,
+    "Table Cream":0.034877589,
+    "Whipping Cream":0.078079096,
+    "Total":0.415706214
+  },
+  {
+    "Ref_Date":"1987/06",
+    "Cereal Cream":0.239698682,
+    "Light_Cream":null,
+    "Sour Cream":0.07299435,
+    "Table Cream":0.044783427,
+    "Whipping Cream":0.090847458,
+    "Total":0.448323917
+  },
+  {
+    "Ref_Date":"1987/07",
+    "Cereal Cream":0.23645951,
+    "Light_Cream":null,
+    "Sour Cream":0.072542373,
+    "Table Cream":0.046327684,
+    "Whipping Cream":0.086779661,
+    "Total":0.442109228
+  },
+  {
+    "Ref_Date":"1987/08",
+    "Cereal Cream":0.23819209,
+    "Light_Cream":null,
+    "Sour Cream":0.065838041,
+    "Table Cream":0.038079096,
+    "Whipping Cream":0.074086629,
+    "Total":0.416195856
+  },
+  {
+    "Ref_Date":"1987/09",
+    "Cereal Cream":0.256082863,
+    "Light_Cream":null,
+    "Sour Cream":0.067570621,
+    "Table Cream":0.033973635,
+    "Whipping Cream":0.068587571,
+    "Total":0.42621469
+  },
+  {
+    "Ref_Date":"1987/10",
+    "Cereal Cream":0.26779661,
+    "Light_Cream":null,
+    "Sour Cream":0.064971751,
+    "Table Cream":0.037551789,
+    "Whipping Cream":0.079397363,
+    "Total":0.449717513
+  },
+  {
+    "Ref_Date":"1987/11",
+    "Cereal Cream":0.250207156,
+    "Light_Cream":null,
+    "Sour Cream":0.06086629,
+    "Table Cream":0.036384181,
+    "Whipping Cream":0.062222222,
+    "Total":0.409679849
+  },
+  {
+    "Ref_Date":"1987/12",
+    "Cereal Cream":0.246403013,
+    "Light_Cream":null,
+    "Sour Cream":0.097815443,
+    "Table Cream":0.038229755,
+    "Whipping Cream":0.105348399,
+    "Total":0.48779661
+  },
+  {
+    "Ref_Date":"1988/01",
+    "Cereal Cream":0.216211192,
+    "Light_Cream":null,
+    "Sour Cream":0.051161926,
+    "Table Cream":0.031492843,
+    "Whipping Cream":0.050418293,
+    "Total":0.349284254
+  },
+  {
+    "Ref_Date":"1988/02",
+    "Cereal Cream":0.22572969,
+    "Light_Cream":null,
+    "Sour Cream":0.053058189,
+    "Table Cream":0.03074921,
+    "Whipping Cream":0.059713701,
+    "Total":0.36925079
+  },
+  {
+    "Ref_Date":"1988/03",
+    "Cereal Cream":0.249749024,
+    "Light_Cream":null,
+    "Sour Cream":0.066592303,
+    "Table Cream":0.034318647,
+    "Whipping Cream":0.067261573,
+    "Total":0.417921547
+  },
+  {
+    "Ref_Date":"1988/04",
+    "Cereal Cream":0.222569251,
+    "Light_Cream":null,
+    "Sour Cream":0.057296895,
+    "Table Cream":0.034207102,
+    "Whipping Cream":0.06833984,
+    "Total":0.382413088
+  },
+  {
+    "Ref_Date":"1988/05",
+    "Cereal Cream":0.239933073,
+    "Light_Cream":null,
+    "Sour Cream":0.07358245,
+    "Table Cream":0.034727645,
+    "Whipping Cream":0.070087377,
+    "Total":0.418330545
+  },
+  {
+    "Ref_Date":"1988/06",
+    "Cereal Cream":0.235099461,
+    "Light_Cream":null,
+    "Sour Cream":0.077783975,
+    "Table Cream":0.036586726,
+    "Whipping Cream":0.083918944,
+    "Total":0.433389106
+  },
+  {
+    "Ref_Date":"1988/07",
+    "Cereal Cream":0.220115263,
+    "Light_Cream":null,
+    "Sour Cream":0.075144079,
+    "Table Cream":0.042870422,
+    "Whipping Cream":0.081279048,
+    "Total":0.419408812
+  },
+  {
+    "Ref_Date":"1988/08",
+    "Cereal Cream":0.233389106,
+    "Light_Cream":null,
+    "Sour Cream":0.073545269,
+    "Table Cream":0.036846998,
+    "Whipping Cream":0.070422012,
+    "Total":0.414203385
+  },
+  {
+    "Ref_Date":"1988/09",
+    "Cereal Cream":0.249377208,
+    "Light_Cream":null,
+    "Sour Cream":0.066926938,
+    "Table Cream":0.037404722,
+    "Whipping Cream":0.067521844,
+    "Total":0.421230712
+  },
+  {
+    "Ref_Date":"1988/10",
+    "Cereal Cream":0.268042387,
+    "Light_Cream":null,
+    "Sour Cream":0.062279234,
+    "Table Cream":0.037293177,
+    "Whipping Cream":0.070459193,
+    "Total":0.438073991
+  },
+  {
+    "Ref_Date":"1988/11",
+    "Cereal Cream":0.248150214,
+    "Light_Cream":null,
+    "Sour Cream":0.063840863,
+    "Table Cream":0.036549545,
+    "Whipping Cream":0.062725414,
+    "Total":0.411266036
+  },
+  {
+    "Ref_Date":"1988/12",
+    "Cereal Cream":0.271202826,
+    "Light_Cream":null,
+    "Sour Cream":0.094441346,
+    "Table Cream":0.043167875,
+    "Whipping Cream":0.107789552,
+    "Total":0.516601599
+  },
+  {
+    "Ref_Date":"1989/01",
+    "Cereal Cream":0.214397896,
+    "Light_Cream":null,
+    "Sour Cream":0.058658096,
+    "Table Cream":0.031483984,
+    "Whipping Cream":0.049928778,
+    "Total":0.354468754
+  },
+  {
+    "Ref_Date":"1989/02",
+    "Cereal Cream":0.214251799,
+    "Light_Cream":null,
+    "Sour Cream":0.051280178,
+    "Table Cream":0.03254319,
+    "Whipping Cream":0.055370905,
+    "Total":0.353446072
+  },
+  {
+    "Ref_Date":"1989/03",
+    "Cereal Cream":0.23781,
+    "Light_Cream":null,
+    "Sour Cream":0.067423938,
+    "Table Cream":0.040213302,
+    "Whipping Cream":0.070747653,
+    "Total":0.416194893
+  },
+  {
+    "Ref_Date":"1989/04",
+    "Cereal Cream":0.214434421,
+    "Light_Cream":null,
+    "Sour Cream":0.059972972,
+    "Table Cream":0.033785018,
+    "Whipping Cream":0.058913766,
+    "Total":0.367106177
+  },
+  {
+    "Ref_Date":"1989/05",
+    "Cereal Cream":0.229811169,
+    "Light_Cream":null,
+    "Sour Cream":0.072793017,
+    "Table Cream":0.036341722,
+    "Whipping Cream":0.069688447,
+    "Total":0.408634355
+  },
+  {
+    "Ref_Date":"1989/06",
+    "Cereal Cream":0.228240622,
+    "Light_Cream":null,
+    "Sour Cream":0.072866065,
+    "Table Cream":0.039081048,
+    "Whipping Cream":0.078381241,
+    "Total":0.418568976
+  },
+  {
+    "Ref_Date":"1989/07",
+    "Cereal Cream":0.206581687,
+    "Light_Cream":null,
+    "Sour Cream":0.074436612,
+    "Table Cream":0.041235984,
+    "Whipping Cream":0.078563863,
+    "Total":0.400818146
+  },
+  {
+    "Ref_Date":"1989/08",
+    "Cereal Cream":0.235837686,
+    "Light_Cream":null,
+    "Sour Cream":0.0765185,
+    "Table Cream":0.03867928,
+    "Whipping Cream":0.076116732,
+    "Total":0.427152198
+  },
+  {
+    "Ref_Date":"1989/09",
+    "Cereal Cream":0.243507798,
+    "Light_Cream":null,
+    "Sour Cream":0.065962964,
+    "Table Cream":0.039081048,
+    "Whipping Cream":0.065853391,
+    "Total":0.414405201
+  },
+  {
+    "Ref_Date":"1989/10",
+    "Cereal Cream":0.238321341,
+    "Light_Cream":null,
+    "Sour Cream":0.064940283,
+    "Table Cream":0.0403594,
+    "Whipping Cream":0.071551189,
+    "Total":0.415172213
+  },
+  {
+    "Ref_Date":"1989/11",
+    "Cereal Cream":0.221702765,
+    "Light_Cream":null,
+    "Sour Cream":0.075349721,
+    "Table Cream":0.038387085,
+    "Whipping Cream":0.061360897,
+    "Total":0.396800468
+  },
+  {
+    "Ref_Date":"1989/12",
+    "Cereal Cream":0.247014135,
+    "Light_Cream":null,
+    "Sour Cream":0.104459622,
+    "Table Cream":0.041929946,
+    "Whipping Cream":0.095584207,
+    "Total":0.48898791
+  },
+  {
+    "Ref_Date":"1990/01",
+    "Cereal Cream":0.23252132,
+    "Light_Cream":null,
+    "Sour Cream":0.067036091,
+    "Table Cream":0.035263215,
+    "Whipping Cream":0.05098773,
+    "Total":0.385808356
+  },
+  {
+    "Ref_Date":"1990/02",
+    "Cereal Cream":0.222590047,
+    "Light_Cream":null,
+    "Sour Cream":0.062214386,
+    "Table Cream":0.032636465,
+    "Whipping Cream":0.057464647,
+    "Total":0.374905545
+  },
+  {
+    "Ref_Date":"1990/03",
+    "Cereal Cream":0.258500954,
+    "Light_Cream":null,
+    "Sour Cream":0.068799252,
+    "Table Cream":0.038933468,
+    "Whipping Cream":0.065668742,
+    "Total":0.431902416
+  },
+  {
+    "Ref_Date":"1990/04",
+    "Cereal Cream":0.230866108,
+    "Light_Cream":null,
+    "Sour Cream":0.075564032,
+    "Table Cream":0.036234752,
+    "Whipping Cream":0.067755748,
+    "Total":0.41042064
+  },
+  {
+    "Ref_Date":"1990/05",
+    "Cereal Cream":0.247274297,
+    "Light_Cream":null,
+    "Sour Cream":0.077902918,
+    "Table Cream":0.040624663,
+    "Whipping Cream":0.072613436,
+    "Total":0.438415314
+  },
+  {
+    "Ref_Date":"1990/06",
+    "Cereal Cream":0.244791479,
+    "Light_Cream":null,
+    "Sour Cream":0.09208017,
+    "Table Cream":0.039473211,
+    "Whipping Cream":0.076607535,
+    "Total":0.452952395
+  },
+  {
+    "Ref_Date":"1990/07",
+    "Cereal Cream":0.226116369,
+    "Light_Cream":null,
+    "Sour Cream":0.087654277,
+    "Table Cream":0.046273974,
+    "Whipping Cream":0.082760606,
+    "Total":0.442805226
+  },
+  {
+    "Ref_Date":"1990/08",
+    "Cereal Cream":0.244071822,
+    "Light_Cream":null,
+    "Sour Cream":0.092655896,
+    "Table Cream":0.041884063,
+    "Whipping Cream":0.07279335,
+    "Total":0.451405131
+  },
+  {
+    "Ref_Date":"1990/09",
+    "Cereal Cream":0.238566442,
+    "Light_Cream":null,
+    "Sour Cream":0.07779497,
+    "Table Cream":0.04008492,
+    "Whipping Cream":0.065200964,
+    "Total":0.421647296
+  },
+  {
+    "Ref_Date":"1990/10",
+    "Cereal Cream":0.26634522,
+    "Light_Cream":null,
+    "Sour Cream":0.07103019,
+    "Table Cream":0.043863121,
+    "Whipping Cream":0.076247706,
+    "Total":0.457486237
+  },
+  {
+    "Ref_Date":"1990/11",
+    "Cereal Cream":0.250044979,
+    "Light_Cream":null,
+    "Sour Cream":0.095066748,
+    "Table Cream":0.041380303,
+    "Whipping Cream":0.061602677,
+    "Total":0.448094707
+  },
+  {
+    "Ref_Date":"1990/12",
+    "Cereal Cream":0.252239934,
+    "Light_Cream":null,
+    "Sour Cream":0.119283221,
+    "Table Cream":0.042891584,
+    "Whipping Cream":0.099492642,
+    "Total":0.513907381
+  },
+  {
+    "Ref_Date":"1991/01",
+    "Cereal Cream":0.224445099,
+    "Light_Cream":null,
+    "Sour Cream":0.074081436,
+    "Table Cream":0.035816085,
+    "Whipping Cream":0.052144528,
+    "Total":0.386487148
+  },
+  {
+    "Ref_Date":"1991/02",
+    "Cereal Cream":0.213867108,
+    "Light_Cream":null,
+    "Sour Cream":0.070531775,
+    "Table Cream":0.034076751,
+    "Whipping Cream":0.054416311,
+    "Total":0.372891945
+  },
+  {
+    "Ref_Date":"1991/03",
+    "Cereal Cream":0.23796931,
+    "Light_Cream":null,
+    "Sour Cream":0.077134145,
+    "Table Cream":0.038478331,
+    "Whipping Cream":0.067550059,
+    "Total":0.421131845
+  },
+  {
+    "Ref_Date":"1991/04",
+    "Cereal Cream":0.243116319,
+    "Light_Cream":null,
+    "Sour Cream":0.074507396,
+    "Table Cream":0.038265351,
+    "Whipping Cream":0.059066368,
+    "Total":0.414955434
+  },
+  {
+    "Ref_Date":"1991/05",
+    "Cereal Cream":0.234526138,
+    "Light_Cream":null,
+    "Sour Cream":0.088102599,
+    "Table Cream":0.039862699,
+    "Whipping Cream":0.067905025,
+    "Total":0.430396461
+  },
+  {
+    "Ref_Date":"1991/06",
+    "Cereal Cream":0.226361916,
+    "Light_Cream":null,
+    "Sour Cream":0.08274261,
+    "Table Cream":0.042382959,
+    "Whipping Cream":0.074755872,
+    "Total":0.426243357
+  },
+  {
+    "Ref_Date":"1991/07",
+    "Cereal Cream":0.221037424,
+    "Light_Cream":null,
+    "Sour Cream":0.09261067,
+    "Table Cream":0.046784539,
+    "Whipping Cream":0.078589506,
+    "Total":0.439022139
+  },
+  {
+    "Ref_Date":"1991/08",
+    "Cereal Cream":0.232289851,
+    "Light_Cream":null,
+    "Sour Cream":0.086221279,
+    "Table Cream":0.042560442,
+    "Whipping Cream":0.069928332,
+    "Total":0.430999904
+  },
+  {
+    "Ref_Date":"1991/09",
+    "Cereal Cream":0.227142842,
+    "Light_Cream":null,
+    "Sour Cream":0.076956662,
+    "Table Cream":0.03901078,
+    "Whipping Cream":0.058888885,
+    "Total":0.401999169
+  },
+  {
+    "Ref_Date":"1991/10",
+    "Cereal Cream":0.250002662,
+    "Light_Cream":null,
+    "Sour Cream":0.076566199,
+    "Table Cream":0.044867722,
+    "Whipping Cream":0.074294416,
+    "Total":0.445730999
+  },
+  {
+    "Ref_Date":"1991/11",
+    "Cereal Cream":0.238998711,
+    "Light_Cream":null,
+    "Sour Cream":0.075394811,
+    "Table Cream":0.042169979,
+    "Whipping Cream":0.059705307,
+    "Total":0.416268808
+  },
+  {
+    "Ref_Date":"1991/12",
+    "Cereal Cream":0.244536183,
+    "Light_Cream":null,
+    "Sour Cream":0.108406663,
+    "Table Cream":0.043270374,
+    "Whipping Cream":0.096479801,
+    "Total":0.492693021
+  },
+  {
+    "Ref_Date":"1992/01",
+    "Cereal Cream":0.222303258,
+    "Light_Cream":null,
+    "Sour Cream":0.072686854,
+    "Table Cream":0.038079075,
+    "Whipping Cream":0.051894136,
+    "Total":0.384963323
+  },
+  {
+    "Ref_Date":"1992/02",
+    "Cereal Cream":0.221952622,
+    "Light_Cream":null,
+    "Sour Cream":0.059923702,
+    "Table Cream":0.037202485,
+    "Whipping Cream":0.054874542,
+    "Total":0.373953351
+  },
+  {
+    "Ref_Date":"1992/03",
+    "Cereal Cream":0.22991206,
+    "Light_Cream":null,
+    "Sour Cream":0.060414592,
+    "Table Cream":0.040463401,
+    "Whipping Cream":0.057504313,
+    "Total":0.388294366
+  },
+  {
+    "Ref_Date":"1992/04",
+    "Cereal Cream":0.231875622,
+    "Light_Cream":null,
+    "Sour Cream":0.072055709,
+    "Table Cream":0.042777599,
+    "Whipping Cream":0.0721609,
+    "Total":0.41886983
+  },
+  {
+    "Ref_Date":"1992/05",
+    "Cereal Cream":0.226125191,
+    "Light_Cream":null,
+    "Sour Cream":0.066550723,
+    "Table Cream":0.039797192,
+    "Whipping Cream":0.065393624,
+    "Total":0.39786673
+  },
+  {
+    "Ref_Date":"1992/06",
+    "Cereal Cream":0.232015877,
+    "Light_Cream":null,
+    "Sour Cream":0.089412194,
+    "Table Cream":0.045196987,
+    "Whipping Cream":0.074545225,
+    "Total":0.441170283
+  },
+  {
+    "Ref_Date":"1992/07",
+    "Cereal Cream":0.24060646,
+    "Light_Cream":null,
+    "Sour Cream":0.093023745,
+    "Table Cream":0.052910981,
+    "Whipping Cream":0.083802017,
+    "Total":0.470343203
+  },
+  {
+    "Ref_Date":"1992/08",
+    "Cereal Cream":0.221987686,
+    "Light_Cream":null,
+    "Sour Cream":0.0828553,
+    "Table Cream":0.044671033,
+    "Whipping Cream":0.07352838,
+    "Total":0.423042399
+  },
+  {
+    "Ref_Date":"1992/09",
+    "Cereal Cream":0.235417047,
+    "Light_Cream":null,
+    "Sour Cream":0.078752858,
+    "Table Cream":0.044706097,
+    "Whipping Cream":0.061711945,
+    "Total":0.420587947
+  },
+  {
+    "Ref_Date":"1992/10",
+    "Cereal Cream":0.243236231,
+    "Light_Cream":null,
+    "Sour Cream":0.075386752,
+    "Table Cream":0.048072203,
+    "Whipping Cream":0.074159525,
+    "Total":0.440854711
+  },
+  {
+    "Ref_Date":"1992/11",
+    "Cereal Cream":0.229666615,
+    "Light_Cream":null,
+    "Sour Cream":0.075211434,
+    "Table Cream":0.043724316,
+    "Whipping Cream":0.057469249,
+    "Total":0.406071614
+  },
+  {
+    "Ref_Date":"1992/12",
+    "Cereal Cream":0.250459333,
+    "Light_Cream":null,
+    "Sour Cream":0.119637022,
+    "Table Cream":0.04979032,
+    "Whipping Cream":0.110345166,
+    "Total":0.530231841
+  },
+  {
+    "Ref_Date":"1993/01",
+    "Cereal Cream":0.211768296,
+    "Light_Cream":null,
+    "Sour Cream":0.07314434,
+    "Table Cream":0.040612623,
+    "Whipping Cream":0.051572135,
+    "Total":0.377097394
+  },
+  {
+    "Ref_Date":"1993/02",
+    "Cereal Cream":0.210172924,
+    "Light_Cream":null,
+    "Sour Cream":0.068600997,
+    "Table Cream":0.039710891,
+    "Whipping Cream":0.052543231,
+    "Total":0.371028043
+  },
+  {
+    "Ref_Date":"1993/03",
+    "Cereal Cream":0.236357835,
+    "Light_Cream":null,
+    "Sour Cream":0.086705002,
+    "Table Cream":0.044011459,
+    "Whipping Cream":0.059236857,
+    "Total":0.426311153
+  },
+  {
+    "Ref_Date":"1993/04",
+    "Cereal Cream":0.222242261,
+    "Light_Cream":null,
+    "Sour Cream":0.081259928,
+    "Table Cream":0.043283137,
+    "Whipping Cream":0.065514299,
+    "Total":0.412299625
+  },
+  {
+    "Ref_Date":"1993/05",
+    "Cereal Cream":0.229733573,
+    "Light_Cream":null,
+    "Sour Cream":0.089410198,
+    "Table Cream":0.046716655,
+    "Whipping Cream":0.064092337,
+    "Total":0.429952763
+  },
+  {
+    "Ref_Date":"1993/06",
+    "Cereal Cream":0.235733559,
+    "Light_Cream":null,
+    "Sour Cream":0.08649691,
+    "Table Cream":0.049109713,
+    "Whipping Cream":0.069953595,
+    "Total":0.441293777
+  },
+  {
+    "Ref_Date":"1993/07",
+    "Cereal Cream":0.234901191,
+    "Light_Cream":null,
+    "Sour Cream":0.093988222,
+    "Table Cream":0.056947845,
+    "Whipping Cream":0.085352404,
+    "Total":0.471189662
+  },
+  {
+    "Ref_Date":"1993/08",
+    "Cereal Cream":0.220785617,
+    "Light_Cream":null,
+    "Sour Cream":0.08840442,
+    "Table Cream":0.048450755,
+    "Whipping Cream":0.068046085,
+    "Total":0.425686877
+  },
+  {
+    "Ref_Date":"1993/09",
+    "Cereal Cream":0.235664195,
+    "Light_Cream":null,
+    "Sour Cream":0.079525828,
+    "Table Cream":0.049387169,
+    "Whipping Cream":0.061872689,
+    "Total":0.426449881
+  },
+  {
+    "Ref_Date":"1993/10",
+    "Cereal Cream":0.250091907,
+    "Light_Cream":null,
+    "Sour Cream":0.080635652,
+    "Table Cream":0.053063461,
+    "Whipping Cream":0.07435821,
+    "Total":0.45814923
+  },
+  {
+    "Ref_Date":"1993/11",
+    "Cereal Cream":0.235109283,
+    "Light_Cream":null,
+    "Sour Cream":0.08198825,
+    "Table Cream":0.048173299,
+    "Whipping Cream":0.057502757,
+    "Total":0.422773589
+  },
+  {
+    "Ref_Date":"1993/12",
+    "Cereal Cream":0.258380905,
+    "Light_Cream":null,
+    "Sour Cream":0.119722267,
+    "Table Cream":0.052439185,
+    "Whipping Cream":0.099918844,
+    "Total":0.530461201
+  },
+  {
+    "Ref_Date":"1994/01",
+    "Cereal Cream":0.220631426,
+    "Light_Cream":null,
+    "Sour Cream":0.063891398,
+    "Table Cream":0.045720135,
+    "Whipping Cream":0.050941368,
+    "Total":0.381184327
+  },
+  {
+    "Ref_Date":"1994/02",
+    "Cereal Cream":0.222795489,
+    "Light_Cream":null,
+    "Sour Cream":0.072719403,
+    "Table Cream":0.046063637,
+    "Whipping Cream":0.057055706,
+    "Total":0.398634235
+  },
+  {
+    "Ref_Date":"1994/03",
+    "Cereal Cream":0.246119285,
+    "Light_Cream":null,
+    "Sour Cream":0.090031911,
+    "Table Cream":0.053311532,
+    "Whipping Cream":0.069421783,
+    "Total":0.458884511
+  },
+  {
+    "Ref_Date":"1994/04",
+    "Cereal Cream":0.231795245,
+    "Light_Cream":null,
+    "Sour Cream":0.078765041,
+    "Table Cream":0.05128487,
+    "Whipping Cream":0.06420055,
+    "Total":0.426045706
+  },
+  {
+    "Ref_Date":"1994/05",
+    "Cereal Cream":0.233615807,
+    "Light_Cream":null,
+    "Sour Cream":0.091749422,
+    "Table Cream":0.055235144,
+    "Whipping Cream":0.06581501,
+    "Total":0.446415383
+  },
+  {
+    "Ref_Date":"1994/06",
+    "Cereal Cream":0.22619616,
+    "Light_Cream":null,
+    "Sour Cream":0.091199819,
+    "Table Cream":0.053861136,
+    "Whipping Cream":0.071723247,
+    "Total":0.442980362
+  },
+  {
+    "Ref_Date":"1994/07",
+    "Cereal Cream":0.226505312,
+    "Light_Cream":null,
+    "Sour Cream":0.104733803,
+    "Table Cream":0.062311289,
+    "Whipping Cream":0.082474864,
+    "Total":0.476025268
+  },
+  {
+    "Ref_Date":"1994/08",
+    "Cereal Cream":0.230558638,
+    "Light_Cream":null,
+    "Sour Cream":0.087799147,
+    "Table Cream":0.053861136,
+    "Whipping Cream":0.070452289,
+    "Total":0.44267121
+  },
+  {
+    "Ref_Date":"1994/09",
+    "Cereal Cream":0.231898296,
+    "Light_Cream":null,
+    "Sour Cream":0.079417695,
+    "Table Cream":0.054067237,
+    "Whipping Cream":0.06578066,
+    "Total":0.431163888
+  },
+  {
+    "Ref_Date":"1994/10",
+    "Cereal Cream":0.252817576,
+    "Light_Cream":null,
+    "Sour Cream":0.078799391,
+    "Table Cream":0.059838073,
+    "Whipping Cream":0.076085724,
+    "Total":0.467540764
+  },
+  {
+    "Ref_Date":"1994/11",
+    "Cereal Cream":0.232173098,
+    "Light_Cream":null,
+    "Sour Cream":0.079348995,
+    "Table Cream":0.054616841,
+    "Whipping Cream":0.061761685,
+    "Total":0.427900619
+  },
+  {
+    "Ref_Date":"1994/12",
+    "Cereal Cream":0.248936002,
+    "Light_Cream":null,
+    "Sour Cream":0.100886579,
+    "Table Cream":0.059048018,
+    "Whipping Cream":0.096661503,
+    "Total":0.505532102
+  },
+  {
+    "Ref_Date":"1995/01",
+    "Cereal Cream":0.228827417,
+    "Light_Cream":null,
+    "Sour Cream":0.069769026,
+    "Table Cream":0.052258636,
+    "Whipping Cream":0.053280643,
+    "Total":0.404135722
+  },
+  {
+    "Ref_Date":"1995/02",
+    "Cereal Cream":0.222967909,
+    "Light_Cream":null,
+    "Sour Cream":0.06752061,
+    "Table Cream":0.05276964,
+    "Whipping Cream":0.056312598,
+    "Total":0.399570757
+  },
+  {
+    "Ref_Date":"1995/03",
+    "Cereal Cream":0.241432173,
+    "Light_Cream":null,
+    "Sour Cream":0.072460312,
+    "Table Cream":0.058118144,
+    "Whipping Cream":0.062580909,
+    "Total":0.434591538
+  },
+  {
+    "Ref_Date":"1995/04",
+    "Cereal Cream":0.234618791,
+    "Light_Cream":null,
+    "Sour Cream":0.079818764,
+    "Table Cream":0.058969817,
+    "Whipping Cream":0.071881175,
+    "Total":0.445288547
+  },
+  {
+    "Ref_Date":"1995/05",
+    "Cereal Cream":0.246235607,
+    "Light_Cream":null,
+    "Sour Cream":0.081964979,
+    "Table Cream":0.063602916,
+    "Whipping Cream":0.068338216,
+    "Total":0.460141718
+  },
+  {
+    "Ref_Date":"1995/06",
+    "Cereal Cream":0.232642911,
+    "Light_Cream":null,
+    "Sour Cream":0.081147373,
+    "Table Cream":0.064488656,
+    "Whipping Cream":0.078353887,
+    "Total":0.456632827
+  },
+  {
+    "Ref_Date":"1995/07",
+    "Cereal Cream":0.229883491,
+    "Light_Cream":null,
+    "Sour Cream":0.089050896,
+    "Table Cream":0.065646931,
+    "Whipping Cream":0.084656265,
+    "Total":0.469237583
+  },
+  {
+    "Ref_Date":"1995/08",
+    "Cereal Cream":0.238604619,
+    "Light_Cream":null,
+    "Sour Cream":0.078660489,
+    "Table Cream":0.06224024,
+    "Whipping Cream":0.071404238,
+    "Total":0.450909586
+  },
+  {
+    "Ref_Date":"1995/09",
+    "Cereal Cream":0.243408053,
+    "Light_Cream":null,
+    "Sour Cream":0.073652654,
+    "Table Cream":0.064250187,
+    "Whipping Cream":0.067043674,
+    "Total":0.448354568
+  },
+  {
+    "Ref_Date":"1995/10",
+    "Cereal Cream":0.257920556,
+    "Light_Cream":null,
+    "Sour Cream":0.078047285,
+    "Table Cream":0.06653267,
+    "Whipping Cream":0.076514274,
+    "Total":0.479014785
+  },
+  {
+    "Ref_Date":"1995/11",
+    "Cereal Cream":0.257954623,
+    "Light_Cream":null,
+    "Sour Cream":0.075594468,
+    "Table Cream":0.06741841,
+    "Whipping Cream":0.067725012,
+    "Total":0.468692513
+  },
+  {
+    "Ref_Date":"1995/12",
+    "Cereal Cream":0.263507529,
+    "Light_Cream":null,
+    "Sour Cream":0.096511549,
+    "Table Cream":0.068099748,
+    "Whipping Cream":0.102575458,
+    "Total":0.530694284
+  },
+  {
+    "Ref_Date":"1996/01",
+    "Cereal Cream":0.227959787,
+    "Light_Cream":null,
+    "Sour Cream":0.067707157,
+    "Table Cream":0.056147399,
+    "Whipping Cream":0.074582349,
+    "Total":0.426396692
+  },
+  {
+    "Ref_Date":"1996/02",
+    "Cereal Cream":0.231565892,
+    "Light_Cream":null,
+    "Sour Cream":0.066156869,
+    "Table Cream":0.05581038,
+    "Whipping Cream":0.059483889,
+    "Total":0.41301703
+  },
+  {
+    "Ref_Date":"1996/03",
+    "Cereal Cream":0.236688584,
+    "Light_Cream":null,
+    "Sour Cream":0.075492301,
+    "Table Cream":0.060899369,
+    "Whipping Cream":0.064673984,
+    "Total":0.437754238
+  },
+  {
+    "Ref_Date":"1996/04",
+    "Cereal Cream":0.236755988,
+    "Light_Cream":null,
+    "Sour Cream":0.073032061,
+    "Table Cream":0.063460715,
+    "Whipping Cream":0.07161658,
+    "Total":0.444865344
+  },
+  {
+    "Ref_Date":"1996/05",
+    "Cereal Cream":0.24433892,
+    "Light_Cream":null,
+    "Sour Cream":0.078862493,
+    "Table Cream":0.068044176,
+    "Whipping Cream":0.070538119,
+    "Total":0.461783708
+  },
+  {
+    "Ref_Date":"1996/06",
+    "Cereal Cream":0.225162528,
+    "Light_Cream":null,
+    "Sour Cream":0.081221627,
+    "Table Cream":0.064101052,
+    "Whipping Cream":0.072290618,
+    "Total":0.442775825
+  },
+  {
+    "Ref_Date":"1996/07",
+    "Cereal Cream":0.250101948,
+    "Light_Cream":null,
+    "Sour Cream":0.093185809,
+    "Table Cream":0.069358551,
+    "Whipping Cream":0.083311146,
+    "Total":0.495957454
+  },
+  {
+    "Ref_Date":"1996/08",
+    "Cereal Cream":0.229914498,
+    "Light_Cream":null,
+    "Sour Cream":0.077918839,
+    "Table Cream":0.065011004,
+    "Whipping Cream":0.073402782,
+    "Total":0.446247123
+  },
+  {
+    "Ref_Date":"1996/09",
+    "Cereal Cream":0.226072479,
+    "Light_Cream":null,
+    "Sour Cream":0.069628167,
+    "Table Cream":0.064876196,
+    "Whipping Cream":0.062719273,
+    "Total":0.423296115
+  },
+  {
+    "Ref_Date":"1996/10",
+    "Cereal Cream":0.26698661,
+    "Light_Cream":null,
+    "Sour Cream":0.075627108,
+    "Table Cream":0.075896724,
+    "Whipping Cream":0.076065233,
+    "Total":0.494575675
+  },
+  {
+    "Ref_Date":"1996/11",
+    "Cereal Cream":0.240193584,
+    "Light_Cream":null,
+    "Sour Cream":0.072256916,
+    "Table Cream":0.069392253,
+    "Whipping Cream":0.060124225,
+    "Total":0.441966978
+  },
+  {
+    "Ref_Date":"1996/12",
+    "Cereal Cream":0.267761754,
+    "Light_Cream":null,
+    "Sour Cream":0.106329558,
+    "Table Cream":0.074818262,
+    "Whipping Cream":0.095713453,
+    "Total":0.544623027
+  },
+  {
+    "Ref_Date":"1997/01",
+    "Cereal Cream":0.229698004,
+    "Light_Cream":null,
+    "Sour Cream":0.06782894,
+    "Table Cream":0.064861007,
+    "Whipping Cream":0.053356099,
+    "Total":0.41574405
+  },
+  {
+    "Ref_Date":"1997/02",
+    "Cereal Cream":0.222194803,
+    "Light_Cream":null,
+    "Sour Cream":0.066595081,
+    "Table Cream":0.065661349,
+    "Whipping Cream":0.054856739,
+    "Total":0.409307972
+  },
+  {
+    "Ref_Date":"1997/03",
+    "Cereal Cream":0.22579634,
+    "Light_Cream":null,
+    "Sour Cream":0.071630562,
+    "Table Cream":0.069996532,
+    "Whipping Cream":0.066628428,
+    "Total":0.434051862
+  },
+  {
+    "Ref_Date":"1997/04",
+    "Cereal Cream":0.232799328,
+    "Light_Cream":null,
+    "Sour Cream":0.085569843,
+    "Table Cream":0.075732312,
+    "Whipping Cream":0.062126507,
+    "Total":0.45622799
+  },
+  {
+    "Ref_Date":"1997/05",
+    "Cereal Cream":0.240769395,
+    "Light_Cream":null,
+    "Sour Cream":0.075932398,
+    "Table Cream":0.084836197,
+    "Whipping Cream":0.068896062,
+    "Total":0.470434052
+  },
+  {
+    "Ref_Date":"1997/06",
+    "Cereal Cream":0.223095187,
+    "Light_Cream":null,
+    "Sour Cream":0.078266727,
+    "Table Cream":0.075999093,
+    "Whipping Cream":0.07329794,
+    "Total":0.450658947
+  },
+  {
+    "Ref_Date":"1997/07",
+    "Cereal Cream":0.234866877,
+    "Light_Cream":null,
+    "Sour Cream":0.09353991,
+    "Table Cream":0.087637392,
+    "Whipping Cream":0.083735727,
+    "Total":0.499779906
+  },
+  {
+    "Ref_Date":"1997/08",
+    "Cereal Cream":0.228964358,
+    "Light_Cream":null,
+    "Sour Cream":0.082535215,
+    "Table Cream":0.081834916,
+    "Whipping Cream":0.073464678,
+    "Total":0.466799167
+  },
+  {
+    "Ref_Date":"1997/09",
+    "Cereal Cream":0.246671913,
+    "Light_Cream":null,
+    "Sour Cream":0.072497599,
+    "Table Cream":0.081167965,
+    "Whipping Cream":0.064660922,
+    "Total":0.464998399
+  },
+  {
+    "Ref_Date":"1997/10",
+    "Cereal Cream":0.261411536,
+    "Light_Cream":null,
+    "Sour Cream":0.084169246,
+    "Table Cream":0.090905453,
+    "Whipping Cream":0.081968306,
+    "Total":0.518454541
+  },
+  {
+    "Ref_Date":"1997/11",
+    "Cereal Cream":0.228297407,
+    "Light_Cream":null,
+    "Sour Cream":0.078833636,
+    "Table Cream":0.080767794,
+    "Whipping Cream":0.068229111,
+    "Total":0.456127948
+  },
+  {
+    "Ref_Date":"1997/12",
+    "Cereal Cream":0.276618024,
+    "Light_Cream":null,
+    "Sour Cream":0.096774624,
+    "Table Cream":0.086070057,
+    "Whipping Cream":0.100909721,
+    "Total":0.560372426
+  },
+  {
+    "Ref_Date":"1998/01",
+    "Cereal Cream":0.229371295,
+    "Light_Cream":null,
+    "Sour Cream":0.080203915,
+    "Table Cream":0.077360742,
+    "Whipping Cream":0.057094873,
+    "Total":0.444030825
+  },
+  {
+    "Ref_Date":"1998/02",
+    "Cereal Cream":0.217701064,
+    "Light_Cream":null,
+    "Sour Cream":0.081063479,
+    "Table Cream":0.075046532,
+    "Whipping Cream":0.058318098,
+    "Total":0.432129173
+  },
+  {
+    "Ref_Date":"1998/03",
+    "Cereal Cream":0.243091256,
+    "Light_Cream":null,
+    "Sour Cream":0.076633419,
+    "Table Cream":0.084600914,
+    "Whipping Cream":0.061690233,
+    "Total":0.466015822
+  },
+  {
+    "Ref_Date":"1998/04",
+    "Cereal Cream":0.244711203,
+    "Light_Cream":null,
+    "Sour Cream":0.085096817,
+    "Table Cream":0.092237808,
+    "Whipping Cream":0.077658284,
+    "Total":0.499704112
+  },
+  {
+    "Ref_Date":"1998/05",
+    "Cereal Cream":0.227652168,
+    "Light_Cream":null,
+    "Sour Cream":0.08364217,
+    "Table Cream":0.09048562,
+    "Whipping Cream":0.067905541,
+    "Total":0.469685499
+  },
+  {
+    "Ref_Date":"1998/06",
+    "Cereal Cream":0.239785241,
+    "Light_Cream":null,
+    "Sour Cream":0.09716377,
+    "Table Cream":0.096502567,
+    "Whipping Cream":0.079674953,
+    "Total":0.513126531
+  },
+  {
+    "Ref_Date":"1998/07",
+    "Cereal Cream":0.254860668,
+    "Light_Cream":null,
+    "Sour Cream":0.102618694,
+    "Table Cream":0.100469785,
+    "Whipping Cream":0.086815944,
+    "Total":0.544765091
+  },
+  {
+    "Ref_Date":"1998/08",
+    "Cereal Cream":0.229569656,
+    "Light_Cream":null,
+    "Sour Cream":0.095676063,
+    "Table Cream":0.086320042,
+    "Whipping Cream":0.068302262,
+    "Total":0.479868023
+  },
+  {
+    "Ref_Date":"1998/09",
+    "Cereal Cream":0.240016662,
+    "Light_Cream":null,
+    "Sour Cream":0.091675786,
+    "Table Cream":0.095080981,
+    "Whipping Cream":0.069294067,
+    "Total":0.496067496
+  },
+  {
+    "Ref_Date":"1998/10",
+    "Cereal Cream":0.268613689,
+    "Light_Cream":null,
+    "Sour Cream":0.093196552,
+    "Table Cream":0.10615613,
+    "Whipping Cream":0.087642448,
+    "Total":0.555608819
+  },
+  {
+    "Ref_Date":"1998/11",
+    "Cereal Cream":0.246992353,
+    "Light_Cream":null,
+    "Sour Cream":0.093064312,
+    "Table Cream":0.101064867,
+    "Whipping Cream":0.070285871,
+    "Total":0.511407403
+  },
+  {
+    "Ref_Date":"1998/12",
+    "Cereal Cream":0.267688005,
+    "Light_Cream":null,
+    "Sour Cream":0.126289759,
+    "Table Cream":0.102949296,
+    "Whipping Cream":0.108073618,
+    "Total":0.605000678
+  },
+  {
+    "Ref_Date":"1999/01",
+    "Cereal Cream":0.226628895,
+    "Light_Cream":null,
+    "Sour Cream":0.091445022,
+    "Table Cream":0.084330081,
+    "Whipping Cream":0.059935998,
+    "Total":0.462339996
+  },
+  {
+    "Ref_Date":"1999/02",
+    "Cereal Cream":0.214169552,
+    "Light_Cream":null,
+    "Sour Cream":0.08449402,
+    "Table Cream":0.088756426,
+    "Whipping Cream":0.060624541,
+    "Total":0.448044539
+  },
+  {
+    "Ref_Date":"1999/03",
+    "Cereal Cream":0.244137551,
+    "Light_Cream":null,
+    "Sour Cream":0.088526912,
+    "Table Cream":0.099478019,
+    "Whipping Cream":0.07124777,
+    "Total":0.503390252
+  },
+  {
+    "Ref_Date":"1999/04",
+    "Cereal Cream":0.240694838,
+    "Light_Cream":null,
+    "Sour Cream":0.101478072,
+    "Table Cream":0.11357675,
+    "Whipping Cream":0.074756059,
+    "Total":0.530505719
+  },
+  {
+    "Ref_Date":"1999/05",
+    "Cereal Cream":0.232399538,
+    "Light_Cream":null,
+    "Sour Cream":0.096133669,
+    "Table Cream":0.112789844,
+    "Whipping Cream":0.073083884,
+    "Total":0.514406935
+  },
+  {
+    "Ref_Date":"1999/06",
+    "Cereal Cream":0.230006033,
+    "Light_Cream":null,
+    "Sour Cream":0.104428969,
+    "Table Cream":0.121052355,
+    "Whipping Cream":0.080821792,
+    "Total":0.536309149
+  },
+  {
+    "Ref_Date":"1999/07",
+    "Cereal Cream":0.239055451,
+    "Light_Cream":null,
+    "Sour Cream":0.11560959,
+    "Table Cream":0.126855786,
+    "Whipping Cream":0.088920365,
+    "Total":0.570441192
+  },
+  {
+    "Ref_Date":"1999/08",
+    "Cereal Cream":0.228104344,
+    "Light_Cream":null,
+    "Sour Cream":0.100494439,
+    "Table Cream":0.127577117,
+    "Whipping Cream":0.074854422,
+    "Total":0.531030322
+  },
+  {
+    "Ref_Date":"1999/09",
+    "Cereal Cream":0.245055608,
+    "Light_Cream":null,
+    "Sour Cream":0.097412391,
+    "Table Cream":0.104068303,
+    "Whipping Cream":0.075346239,
+    "Total":0.521882541
+  },
+  {
+    "Ref_Date":"1999/10",
+    "Cereal Cream":0.258236282,
+    "Light_Cream":null,
+    "Sour Cream":0.091117144,
+    "Table Cream":0.129577169,
+    "Whipping Cream":0.083215297,
+    "Total":0.562145892
+  },
+  {
+    "Ref_Date":"1999/11",
+    "Cereal Cream":0.254137813,
+    "Light_Cream":null,
+    "Sour Cream":0.101609223,
+    "Table Cream":0.114494806,
+    "Whipping Cream":0.074854422,
+    "Total":0.545096264
+  },
+  {
+    "Ref_Date":"1999/12",
+    "Cereal Cream":0.25797398,
+    "Light_Cream":null,
+    "Sour Cream":0.122855681,
+    "Table Cream":0.128298447,
+    "Whipping Cream":0.102691218,
+    "Total":0.611819326
+  },
+  {
+    "Ref_Date":"2000/01",
+    "Cereal Cream":0.228536515,
+    "Light_Cream":null,
+    "Sour Cream":0.098051005,
+    "Table Cream":0.112968277,
+    "Whipping Cream":0.066623984,
+    "Total":0.506179781
+  },
+  {
+    "Ref_Date":"2000/02",
+    "Cereal Cream":0.225026568,
+    "Light_Cream":null,
+    "Sour Cream":0.094996051,
+    "Table Cream":0.116153229,
+    "Whipping Cream":0.072311397,
+    "Total":0.508487245
+  },
+  {
+    "Ref_Date":"2000/03",
+    "Cereal Cream":0.233086445,
+    "Light_Cream":null,
+    "Sour Cream":0.099448483,
+    "Table Cream":0.130680507,
+    "Whipping Cream":0.078518803,
+    "Total":0.541734238
+  },
+  {
+    "Ref_Date":"2000/04",
+    "Cereal Cream":0.238546362,
+    "Light_Cream":null,
+    "Sour Cream":0.101690949,
+    "Table Cream":0.127723052,
+    "Whipping Cream":0.090381122,
+    "Total":0.558341485
+  },
+  {
+    "Ref_Date":"2000/05",
+    "Cereal Cream":0.240041339,
+    "Light_Cream":null,
+    "Sour Cream":0.099448483,
+    "Table Cream":0.127690553,
+    "Whipping Cream":0.082451243,
+    "Total":0.549631618
+  },
+  {
+    "Ref_Date":"2000/06",
+    "Cereal Cream":0.240366334,
+    "Light_Cream":null,
+    "Sour Cream":0.10884084,
+    "Table Cream":0.133930458,
+    "Whipping Cream":0.093046081,
+    "Total":0.576183713
+  },
+  {
+    "Ref_Date":"2000/07",
+    "Cereal Cream":0.248783706,
+    "Light_Cream":null,
+    "Sour Cream":0.126033078,
+    "Table Cream":0.147742747,
+    "Whipping Cream":0.102795932,
+    "Total":0.625355463
+  },
+  {
+    "Ref_Date":"2000/08",
+    "Cereal Cream":0.237733875,
+    "Light_Cream":null,
+    "Sour Cream":0.109425831,
+    "Table Cream":0.135945427,
+    "Whipping Cream":0.088788646,
+    "Total":0.571893779
+  },
+  {
+    "Ref_Date":"2000/09",
+    "Cereal Cream":0.237148883,
+    "Light_Cream":null,
+    "Sour Cream":0.102795932,
+    "Table Cream":0.118915687,
+    "Whipping Cream":0.07933129,
+    "Total":0.538191792
+  },
+  {
+    "Ref_Date":"2000/10",
+    "Cereal Cream":0.275498299,
+    "Light_Cream":null,
+    "Sour Cream":0.107963354,
+    "Table Cream":0.147677748,
+    "Whipping Cream":0.100878462,
+    "Total":0.632017863
+  },
+  {
+    "Ref_Date":"2000/11",
+    "Cereal Cream":0.238156368,
+    "Light_Cream":null,
+    "Sour Cream":0.099805978,
+    "Table Cream":0.136075425,
+    "Whipping Cream":0.079006295,
+    "Total":0.553044066
+  },
+  {
+    "Ref_Date":"2000/12",
+    "Cereal Cream":0.273320832,
+    "Light_Cream":null,
+    "Sour Cream":0.127658053,
+    "Table Cream":0.134352951,
+    "Whipping Cream":0.116153229,
+    "Total":0.651485065
+  },
+  {
+    "Ref_Date":"2001/01",
+    "Cereal Cream":0.196963506,
+    "Light_Cream":null,
+    "Sour Cream":0.10527027,
+    "Table Cream":0.117721246,
+    "Whipping Cream":0.070780744,
+    "Total":0.490735766
+  },
+  {
+    "Ref_Date":"2001/02",
+    "Cereal Cream":0.225951438,
+    "Light_Cream":null,
+    "Sour Cream":0.096905273,
+    "Table Cream":0.115276093,
+    "Whipping Cream":0.072357224,
+    "Total":0.510490028
+  },
+  {
+    "Ref_Date":"2001/03",
+    "Cereal Cream":0.24927691,
+    "Light_Cream":null,
+    "Sour Cream":0.104047693,
+    "Table Cream":0.142462333,
+    "Whipping Cream":0.076314511,
+    "Total":0.572101447
+  },
+  {
+    "Ref_Date":"2001/04",
+    "Cereal Cream":0.255872389,
+    "Light_Cream":null,
+    "Sour Cream":0.112187479,
+    "Table Cream":0.156618482,
+    "Whipping Cream":0.087800295,
+    "Total":0.612478645
+  },
+  {
+    "Ref_Date":"2001/05",
+    "Cereal Cream":0.246574373,
+    "Light_Cream":null,
+    "Sour Cream":0.107522384,
+    "Table Cream":0.153883772,
+    "Whipping Cream":0.082845643,
+    "Total":0.590826172
+  },
+  {
+    "Ref_Date":"2001/06",
+    "Cereal Cream":0.235860742,
+    "Light_Cream":null,
+    "Sour Cream":0.108970172,
+    "Table Cream":0.158999289,
+    "Whipping Cream":0.085516008,
+    "Total":0.589346211
+  },
+  {
+    "Ref_Date":"2001/07",
+    "Cereal Cream":0.257706253,
+    "Light_Cream":null,
+    "Sour Cream":0.118654265,
+    "Table Cream":0.173091092,
+    "Whipping Cream":0.093752312,
+    "Total":0.643203922
+  },
+  {
+    "Ref_Date":"2001/08",
+    "Cereal Cream":0.239528472,
+    "Light_Cream":null,
+    "Sour Cream":0.108294538,
+    "Table Cream":0.152435984,
+    "Whipping Cream":0.084325604,
+    "Total":0.584584598
+  },
+  {
+    "Ref_Date":"2001/09",
+    "Cereal Cream":0.23206432,
+    "Light_Cream":null,
+    "Sour Cream":0.103629444,
+    "Table Cream":0.146162236,
+    "Whipping Cream":0.076443203,
+    "Total":0.558299203
+  },
+  {
+    "Ref_Date":"2001/10",
+    "Cereal Cream":0.293193145,
+    "Light_Cream":null,
+    "Sour Cream":0.125764512,
+    "Table Cream":0.179171801,
+    "Whipping Cream":0.099382599,
+    "Total":0.697512057
+  },
+  {
+    "Ref_Date":"2001/11",
+    "Cereal Cream":0.249952545,
+    "Light_Cream":null,
+    "Sour Cream":0.129689626,
+    "Table Cream":0.153369003,
+    "Whipping Cream":0.082363047,
+    "Total":0.615374221
+  },
+  {
+    "Ref_Date":"2001/12",
+    "Cereal Cream":0.257223657,
+    "Light_Cream":null,
+    "Sour Cream":0.133132144,
+    "Table Cream":0.1488326,
+    "Whipping Cream":0.115050882,
+    "Total":0.654239283
+  },
+  {
+    "Ref_Date":"2002/01",
+    "Cereal Cream":0.247656399,
+    "Light_Cream":null,
+    "Sour Cream":0.115936484,
+    "Table Cream":0.148778777,
+    "Whipping Cream":0.074548817,
+    "Total":0.586920477
+  },
+  {
+    "Ref_Date":"2002/02",
+    "Cereal Cream":0.228365538,
+    "Light_Cream":null,
+    "Sour Cream":0.095146993,
+    "Table Cream":0.135036031,
+    "Whipping Cream":0.074740131,
+    "Total":0.533288693
+  },
+  {
+    "Ref_Date":"2002/03",
+    "Cereal Cream":0.246572285,
+    "Light_Cream":null,
+    "Sour Cream":0.107933168,
+    "Table Cream":0.154295007,
+    "Whipping Cream":0.086410305,
+    "Total":0.595210765
+  },
+  {
+    "Ref_Date":"2002/04",
+    "Cereal Cream":0.248804285,
+    "Light_Cream":null,
+    "Sour Cream":0.10649831,
+    "Table Cream":0.175785983,
+    "Whipping Cream":0.084369619,
+    "Total":0.615458197
+  },
+  {
+    "Ref_Date":"2002/05",
+    "Cereal Cream":0.244946113,
+    "Light_Cream":null,
+    "Sour Cream":0.108188253,
+    "Table Cream":0.171513296,
+    "Whipping Cream":0.087590077,
+    "Total":0.612237739
+  },
+  {
+    "Ref_Date":"2002/06",
+    "Cereal Cream":0.230597538,
+    "Light_Cream":null,
+    "Sour Cream":0.108953511,
+    "Table Cream":0.161341751,
+    "Whipping Cream":0.092468593,
+    "Total":0.593361393
+  },
+  {
+    "Ref_Date":"2002/07",
+    "Cereal Cream":0.238058797,
+    "Light_Cream":null,
+    "Sour Cream":0.115203112,
+    "Table Cream":0.175945412,
+    "Whipping Cream":0.100854537,
+    "Total":0.630061858
+  },
+  {
+    "Ref_Date":"2002/08",
+    "Cereal Cream":0.239206683,
+    "Light_Cream":null,
+    "Sour Cream":0.108570882,
+    "Table Cream":0.173745297,
+    "Whipping Cream":0.092946878,
+    "Total":0.61446974
+  },
+  {
+    "Ref_Date":"2002/09",
+    "Cereal Cream":0.229513424,
+    "Light_Cream":null,
+    "Sour Cream":0.099037051,
+    "Table Cream":0.162266437,
+    "Whipping Cream":0.096836936,
+    "Total":0.587653848
+  },
+  {
+    "Ref_Date":"2002/10",
+    "Cereal Cream":0.254926344,
+    "Light_Cream":null,
+    "Sour Cream":0.108124482,
+    "Table Cream":0.172724954,
+    "Whipping Cream":0.102353166,
+    "Total":0.638128946
+  },
+  {
+    "Ref_Date":"2002/11",
+    "Cereal Cream":0.245201199,
+    "Light_Cream":null,
+    "Sour Cream":0.09852688,
+    "Table Cream":0.165965181,
+    "Whipping Cream":0.084497162,
+    "Total":0.594190422
+  },
+  {
+    "Ref_Date":"2002/12",
+    "Cereal Cream":0.26181366,
+    "Light_Cream":null,
+    "Sour Cream":0.121739685,
+    "Table Cream":0.164594095,
+    "Whipping Cream":0.119635227,
+    "Total":0.667782667
+  },
+  {
+    "Ref_Date":"2003/01",
+    "Cereal Cream":0.241349918,
+    "Light_Cream":null,
+    "Sour Cream":0.115576462,
+    "Table Cream":0.160657911,
+    "Whipping Cream":0.081512817,
+    "Total":0.599097108
+  },
+  {
+    "Ref_Date":"2003/02",
+    "Cereal Cream":0.230142695,
+    "Light_Cream":null,
+    "Sour Cream":0.094614219,
+    "Table Cream":0.148914004,
+    "Whipping Cream":0.083091299,
+    "Total":0.556762217
+  },
+  {
+    "Ref_Date":"2003/03",
+    "Cereal Cream":0.244285895,
+    "Light_Cream":null,
+    "Sour Cream":0.104085112,
+    "Table Cream":0.174359136,
+    "Whipping Cream":0.08836343,
+    "Total":0.611093573
+  },
+  {
+    "Ref_Date":"2003/04",
+    "Cereal Cream":0.258460664,
+    "Light_Cream":null,
+    "Sour Cream":0.11661826,
+    "Table Cream":0.201982574,
+    "Whipping Cream":0.101906806,
+    "Total":0.678968304
+  },
+  {
+    "Ref_Date":"2003/05",
+    "Cereal Cream":0.237498422,
+    "Light_Cream":null,
+    "Sour Cream":0.104369239,
+    "Table Cream":0.19699457,
+    "Whipping Cream":0.093509281,
+    "Total":0.632371512
+  },
+  {
+    "Ref_Date":"2003/06",
+    "Cereal Cream":0.243086248,
+    "Light_Cream":null,
+    "Sour Cream":0.109262533,
+    "Table Cream":0.191312034,
+    "Whipping Cream":0.096666246,
+    "Total":0.640327061
+  },
+  {
+    "Ref_Date":"2003/07",
+    "Cereal Cream":0.253409521,
+    "Light_Cream":null,
+    "Sour Cream":0.126846824,
+    "Table Cream":0.236677611,
+    "Whipping Cream":0.113398156,
+    "Total":0.730332112
+  },
+  {
+    "Ref_Date":"2003/08",
+    "Cereal Cream":0.242423286,
+    "Light_Cream":null,
+    "Sour Cream":0.111377699,
+    "Table Cream":0.214105316,
+    "Whipping Cream":0.096161131,
+    "Total":0.664067432
+  },
+  {
+    "Ref_Date":"2003/09",
+    "Cereal Cream":0.254482889,
+    "Light_Cream":null,
+    "Sour Cream":0.112072231,
+    "Table Cream":0.209464579,
+    "Whipping Cream":0.095087764,
+    "Total":0.671107463
+  },
+  {
+    "Ref_Date":"2003/10",
+    "Cereal Cream":0.285578987,
+    "Light_Cream":null,
+    "Sour Cream":0.111724965,
+    "Table Cream":0.230489961,
+    "Whipping Cream":0.111819674,
+    "Total":0.739613587
+  },
+  {
+    "Ref_Date":"2003/11",
+    "Cereal Cream":0.259123627,
+    "Light_Cream":null,
+    "Sour Cream":0.104621796,
+    "Table Cream":0.195637075,
+    "Whipping Cream":0.087700467,
+    "Total":0.647082965
+  },
+  {
+    "Ref_Date":"2003/12",
+    "Cereal Cream":0.291229953,
+    "Light_Cream":null,
+    "Sour Cream":0.13514964,
+    "Table Cream":0.210001263,
+    "Whipping Cream":0.134581387,
+    "Total":0.770962243
+  },
+  {
+    "Ref_Date":"2004/01",
+    "Cereal Cream":0.258977965,
+    "Light_Cream":null,
+    "Sour Cream":0.097640256,
+    "Table Cream":0.195811846,
+    "Whipping Cream":0.077668386,
+    "Total":0.630098453
+  },
+  {
+    "Ref_Date":"2004/02",
+    "Cereal Cream":0.244975777,
+    "Light_Cream":null,
+    "Sour Cream":0.095108611,
+    "Table Cream":0.17990311,
+    "Whipping Cream":0.075824348,
+    "Total":0.595811846
+  },
+  {
+    "Ref_Date":"2004/03",
+    "Cereal Cream":0.28191905,
+    "Light_Cream":null,
+    "Sour Cream":0.10470386,
+    "Table Cream":0.210501641,
+    "Whipping Cream":0.079449914,
+    "Total":0.676574465
+  },
+  {
+    "Ref_Date":"2004/04",
+    "Cereal Cream":0.27654321,
+    "Light_Cream":null,
+    "Sour Cream":0.11148617,
+    "Table Cream":0.224972652,
+    "Whipping Cream":0.093358337,
+    "Total":0.706360369
+  },
+  {
+    "Ref_Date":"2004/05",
+    "Cereal Cream":0.253664635,
+    "Light_Cream":null,
+    "Sour Cream":0.122706673,
+    "Table Cream":0.202187842,
+    "Whipping Cream":0.090732927,
+    "Total":0.669292077
+  },
+  {
+    "Ref_Date":"2004/06",
+    "Cereal Cream":0.255289889,
+    "Light_Cream":null,
+    "Sour Cream":0.112892639,
+    "Table Cream":0.214752305,
+    "Whipping Cream":0.099640569,
+    "Total":0.682575402
+  },
+  {
+    "Ref_Date":"2004/07",
+    "Cereal Cream":0.273261447,
+    "Light_Cream":null,
+    "Sour Cream":0.1167995,
+    "Table Cream":0.243663072,
+    "Whipping Cream":0.111204876,
+    "Total":0.744928895
+  },
+  {
+    "Ref_Date":"2004/08",
+    "Cereal Cream":0.259259259,
+    "Light_Cream":null,
+    "Sour Cream":0.106672918,
+    "Table Cream":0.214283482,
+    "Whipping Cream":0.098671667,
+    "Total":0.678887326
+  },
+  {
+    "Ref_Date":"2004/09",
+    "Cereal Cream":0.259321769,
+    "Light_Cream":null,
+    "Sour Cream":0.122675418,
+    "Table Cream":0.208876387,
+    "Whipping Cream":0.087982497,
+    "Total":0.678856071
+  },
+  {
+    "Ref_Date":"2004/10",
+    "Cereal Cream":0.286826067,
+    "Light_Cream":null,
+    "Sour Cream":0.105266448,
+    "Table Cream":0.233161431,
+    "Whipping Cream":0.104422566,
+    "Total":0.729676512
+  },
+  {
+    "Ref_Date":"2004/11",
+    "Cereal Cream":0.265353962,
+    "Light_Cream":null,
+    "Sour Cream":0.117174559,
+    "Table Cream":0.2160025,
+    "Whipping Cream":0.086607282,
+    "Total":0.685138303
+  },
+  {
+    "Ref_Date":"2004/12",
+    "Cereal Cream":0.289951555,
+    "Light_Cream":null,
+    "Sour Cream":0.13298953,
+    "Table Cream":0.218940459,
+    "Whipping Cream":0.122331614,
+    "Total":0.764213158
+  },
+  {
+    "Ref_Date":"2005/01",
+    "Cereal Cream":0.2606462,
+    "Light_Cream":null,
+    "Sour Cream":0.103614756,
+    "Table Cream":0.202587274,
+    "Whipping Cream":0.08031072,
+    "Total":0.64715895
+  },
+  {
+    "Ref_Date":"2005/02",
+    "Cereal Cream":0.246038623,
+    "Light_Cream":null,
+    "Sour Cream":0.094918297,
+    "Table Cream":0.19113642,
+    "Whipping Cream":0.076906412,
+    "Total":0.608999752
+  },
+  {
+    "Ref_Date":"2005/03",
+    "Cereal Cream":0.264824214,
+    "Light_Cream":null,
+    "Sour Cream":0.107235702,
+    "Table Cream":0.21081951,
+    "Whipping Cream":0.096403813,
+    "Total":0.679283239
+  },
+  {
+    "Ref_Date":"2005/04",
+    "Cereal Cream":0.251887844,
+    "Light_Cream":null,
+    "Sour Cream":0.111197078,
+    "Table Cream":0.229666997,
+    "Whipping Cream":0.084210201,
+    "Total":0.67696212
+  },
+  {
+    "Ref_Date":"2005/05",
+    "Cereal Cream":0.256715771,
+    "Light_Cream":null,
+    "Sour Cream":0.11045432,
+    "Table Cream":0.238023026,
+    "Whipping Cream":0.096496658,
+    "Total":0.701689775
+  },
+  {
+    "Ref_Date":"2005/06",
+    "Cereal Cream":0.233473632,
+    "Light_Cream":null,
+    "Sour Cream":0.10726665,
+    "Table Cream":0.233566477,
+    "Whipping Cream":0.092566229,
+    "Total":0.666872988
+  },
+  {
+    "Ref_Date":"2005/07",
+    "Cereal Cream":0.263060163,
+    "Light_Cream":null,
+    "Sour Cream":0.109587769,
+    "Table Cream":0.25903689,
+    "Whipping Cream":0.107761822,
+    "Total":0.739446644
+  },
+  {
+    "Ref_Date":"2005/08",
+    "Cereal Cream":0.240436989,
+    "Light_Cream":null,
+    "Sour Cream":0.109680614,
+    "Table Cream":0.243562763,
+    "Whipping Cream":0.09504209,
+    "Total":0.688722456
+  },
+  {
+    "Ref_Date":"2005/09",
+    "Cereal Cream":0.264174301,
+    "Light_Cream":null,
+    "Sour Cream":0.112837336,
+    "Table Cream":0.238270612,
+    "Whipping Cream":0.094546918,
+    "Total":0.709829167
+  },
+  {
+    "Ref_Date":"2005/10",
+    "Cereal Cream":0.27624412,
+    "Light_Cream":null,
+    "Sour Cream":0.110701906,
+    "Table Cream":0.25408517,
+    "Whipping Cream":0.110206734,
+    "Total":0.75123793
+  },
+  {
+    "Ref_Date":"2005/11",
+    "Cereal Cream":0.257241892,
+    "Light_Cream":null,
+    "Sour Cream":0.115560782,
+    "Table Cream":0.230131221,
+    "Whipping Cream":0.092844764,
+    "Total":0.695778659
+  },
+  {
+    "Ref_Date":"2005/12",
+    "Cereal Cream":0.288530577,
+    "Light_Cream":null,
+    "Sour Cream":0.133232236,
+    "Table Cream":0.233071305,
+    "Whipping Cream":0.129704135,
+    "Total":0.784538253
+  },
+  {
+    "Ref_Date":"2006/01",
+    "Cereal Cream":0.249305353,
+    "Light_Cream":null,
+    "Sour Cream":0.102884512,
+    "Table Cream":0.220936123,
+    "Whipping Cream":0.086151579,
+    "Total":0.659277567
+  },
+  {
+    "Ref_Date":"2006/02",
+    "Cereal Cream":0.239449809,
+    "Light_Cream":null,
+    "Sour Cream":0.094318478,
+    "Table Cream":0.202852274,
+    "Whipping Cream":0.083204126,
+    "Total":0.619824687
+  },
+  {
+    "Ref_Date":"2006/03",
+    "Cereal Cream":0.252836155,
+    "Light_Cream":null,
+    "Sour Cream":0.105371425,
+    "Table Cream":0.235673385,
+    "Whipping Cream":0.084923474,
+    "Total":0.678804439
+  },
+  {
+    "Ref_Date":"2006/04",
+    "Cereal Cream":0.264104021,
+    "Light_Cream":null,
+    "Sour Cream":0.122503492,
+    "Table Cream":0.261893431,
+    "Whipping Cream":0.103191538,
+    "Total":0.751692482
+  },
+  {
+    "Ref_Date":"2006/05",
+    "Cereal Cream":0.245314011,
+    "Light_Cream":null,
+    "Sour Cream":0.101656407,
+    "Table Cream":0.247739519,
+    "Whipping Cream":0.090818379,
+    "Total":0.685528316
+  },
+  {
+    "Ref_Date":"2006/06",
+    "Cereal Cream":0.239173485,
+    "Light_Cream":null,
+    "Sour Cream":0.127661534,
+    "Table Cream":0.251761563,
+    "Whipping Cream":0.09889317,
+    "Total":0.717489752
+  },
+  {
+    "Ref_Date":"2006/07",
+    "Cereal Cream":0.250594863,
+    "Light_Cream":null,
+    "Sour Cream":0.135214381,
+    "Table Cream":0.282740517,
+    "Whipping Cream":0.105831965,
+    "Total":0.774381726
+  },
+  {
+    "Ref_Date":"2006/08",
+    "Cereal Cream":0.246787737,
+    "Light_Cream":null,
+    "Sour Cream":0.115165564,
+    "Table Cream":0.255783608,
+    "Whipping Cream":0.095055341,
+    "Total":0.71279225
+  },
+  {
+    "Ref_Date":"2006/09",
+    "Cereal Cream":0.255722203,
+    "Light_Cream":null,
+    "Sour Cream":0.112126004,
+    "Table Cream":0.254002855,
+    "Whipping Cream":0.091923673,
+    "Total":0.713774735
+  },
+  {
+    "Ref_Date":"2006/10",
+    "Cereal Cream":0.272025299,
+    "Light_Cream":null,
+    "Sour Cream":0.123823706,
+    "Table Cream":0.272762162,
+    "Whipping Cream":0.109608388,
+    "Total":0.778219555
+  },
+  {
+    "Ref_Date":"2006/11",
+    "Cereal Cream":0.253757234,
+    "Light_Cream":null,
+    "Sour Cream":0.117713882,
+    "Table Cream":0.246787737,
+    "Whipping Cream":0.091708755,
+    "Total":0.709967608
+  },
+  {
+    "Ref_Date":"2006/12",
+    "Cereal Cream":0.279793064,
+    "Light_Cream":null,
+    "Sour Cream":0.135306489,
+    "Table Cream":0.251669455,
+    "Whipping Cream":0.130148447,
+    "Total":0.796917455
+  },
+  {
+    "Ref_Date":"2007/01",
+    "Cereal Cream":0.246291189,
+    "Light_Cream":null,
+    "Sour Cream":0.104719365,
+    "Table Cream":0.264717419,
+    "Whipping Cream":0.086840449,
+    "Total":0.702568422
+  },
+  {
+    "Ref_Date":"2007/02",
+    "Cereal Cream":0.238051077,
+    "Light_Cream":null,
+    "Sour Cream":0.090367582,
+    "Table Cream":0.227500084,
+    "Whipping Cream":0.083313316,
+    "Total":0.639232059
+  },
+  {
+    "Ref_Date":"2007/03",
+    "Cereal Cream":0.249848729,
+    "Light_Cream":null,
+    "Sour Cream":0.111256724,
+    "Table Cream":0.253588706,
+    "Whipping Cream":0.088756047,
+    "Total":0.703450206
+  },
+  {
+    "Ref_Date":"2007/04",
+    "Cereal Cream":0.260217284,
+    "Light_Cream":null,
+    "Sour Cream":0.109979658,
+    "Table Cream":0.269156742,
+    "Whipping Cream":0.099975979,
+    "Total":0.739329663
+  },
+  {
+    "Ref_Date":"2007/05",
+    "Cereal Cream":0.24215593,
+    "Light_Cream":null,
+    "Sour Cream":0.106118056,
+    "Table Cream":0.265568796,
+    "Whipping Cream":0.093043338,
+    "Total":0.70688612
+  },
+  {
+    "Ref_Date":"2007/06",
+    "Cereal Cream":0.230054214,
+    "Light_Cream":null,
+    "Sour Cream":0.121929342,
+    "Table Cream":0.260673378,
+    "Whipping Cream":0.097087379,
+    "Total":0.709744313
+  },
+  {
+    "Ref_Date":"2007/07",
+    "Cereal Cream":0.247081753,
+    "Light_Cream":null,
+    "Sour Cream":0.15367354,
+    "Table Cream":0.280923987,
+    "Whipping Cream":0.112108101,
+    "Total":0.793787381
+  },
+  {
+    "Ref_Date":"2007/08",
+    "Cereal Cream":0.239662611,
+    "Light_Cream":null,
+    "Sour Cream":0.106178868,
+    "Table Cream":0.258271279,
+    "Whipping Cream":0.101435482,
+    "Total":0.70554824
+  },
+  {
+    "Ref_Date":"2007/09",
+    "Cereal Cream":0.24677769,
+    "Light_Cream":null,
+    "Sour Cream":0.106513338,
+    "Table Cream":0.243645839,
+    "Whipping Cream":0.09435081,
+    "Total":0.691287677
+  },
+  {
+    "Ref_Date":"2007/10",
+    "Cereal Cream":0.294302768,
+    "Light_Cream":null,
+    "Sour Cream":0.114662231,
+    "Table Cream":0.301326628,
+    "Whipping Cream":0.121898935,
+    "Total":0.832190562
+  },
+  {
+    "Ref_Date":"2007/11",
+    "Cereal Cream":0.253254236,
+    "Light_Cream":null,
+    "Sour Cream":0.114449387,
+    "Table Cream":0.254440083,
+    "Whipping Cream":0.096904941,
+    "Total":0.719048647
+  },
+  {
+    "Ref_Date":"2007/12",
+    "Cereal Cream":0.278369856,
+    "Light_Cream":null,
+    "Sour Cream":0.135581779,
+    "Table Cream":0.239632205,
+    "Whipping Cream":0.13640275,
+    "Total":0.78998659
+  },
+  {
+    "Ref_Date":"2008/01",
+    "Cereal Cream":0.244090983,
+    "Light_Cream":null,
+    "Sour Cream":0.10960783,
+    "Table Cream":0.242376481,
+    "Whipping Cream":0.086507168,
+    "Total":0.682582462
+  },
+  {
+    "Ref_Date":"2008/02",
+    "Cereal Cream":0.238706844,
+    "Light_Cream":null,
+    "Sour Cream":0.117789315,
+    "Table Cream":0.223125929,
+    "Whipping Cream":0.08554464,
+    "Total":0.665166728
+  },
+  {
+    "Ref_Date":"2008/03",
+    "Cereal Cream":0.235759103,
+    "Light_Cream":null,
+    "Sour Cream":0.107171432,
+    "Table Cream":0.234435628,
+    "Whipping Cream":0.093335098,
+    "Total":0.670701261
+  },
+  {
+    "Ref_Date":"2008/04",
+    "Cereal Cream":0.253776417,
+    "Light_Cream":null,
+    "Sour Cream":0.104133454,
+    "Table Cream":0.284787853,
+    "Whipping Cream":0.095440627,
+    "Total":0.738138351
+  },
+  {
+    "Ref_Date":"2008/05",
+    "Cereal Cream":0.24210577,
+    "Light_Cream":null,
+    "Sour Cream":0.092222175,
+    "Table Cream":0.254438155,
+    "Whipping Cream":0.09742584,
+    "Total":0.68619194
+  },
+  {
+    "Ref_Date":"2008/06",
+    "Cereal Cream":0.233653574,
+    "Light_Cream":null,
+    "Sour Cream":0.091710833,
+    "Table Cream":0.252843968,
+    "Whipping Cream":0.099621606,
+    "Total":0.677829981
+  },
+  {
+    "Ref_Date":"2008/07",
+    "Cereal Cream":0.251189624,
+    "Light_Cream":null,
+    "Sour Cream":0.110690674,
+    "Table Cream":0.283855404,
+    "Whipping Cream":0.11318723,
+    "Total":0.758922932
+  },
+  {
+    "Ref_Date":"2008/08",
+    "Cereal Cream":0.236390762,
+    "Light_Cream":null,
+    "Sour Cream":0.085905588,
+    "Table Cream":0.259070319,
+    "Whipping Cream":0.099591527,
+    "Total":0.680958196
+  },
+  {
+    "Ref_Date":"2008/09",
+    "Cereal Cream":0.23407468,
+    "Light_Cream":null,
+    "Sour Cream":0.0831684,
+    "Table Cream":0.255340524,
+    "Whipping Cream":0.100223186,
+    "Total":0.67280679
+  },
+  {
+    "Ref_Date":"2008/10",
+    "Cereal Cream":0.271583177,
+    "Light_Cream":null,
+    "Sour Cream":0.098659079,
+    "Table Cream":0.289119227,
+    "Whipping Cream":0.118270579,
+    "Total":0.777632062
+  },
+  {
+    "Ref_Date":"2008/11",
+    "Cereal Cream":0.251941599,
+    "Light_Cream":null,
+    "Sour Cream":0.089274435,
+    "Table Cream":0.244421852,
+    "Whipping Cream":0.093184703,
+    "Total":0.678822589
+  },
+  {
+    "Ref_Date":"2008/12",
+    "Cereal Cream":0.276666526,
+    "Light_Cream":null,
+    "Sour Cream":0.110450042,
+    "Table Cream":0.25843866,
+    "Whipping Cream":0.135505838,
+    "Total":0.781061066
+  },
+  {
+    "Ref_Date":"2009/01",
+    "Cereal Cream":0.234443301,
+    "Light_Cream":null,
+    "Sour Cream":0.082637993,
+    "Table Cream":0.239974308,
+    "Whipping Cream":0.084541135,
+    "Total":0.641596737
+  },
+  {
+    "Ref_Date":"2009/02",
+    "Cereal Cream":0.219991317,
+    "Light_Cream":null,
+    "Sour Cream":0.075471474,
+    "Table Cream":0.224630225,
+    "Whipping Cream":0.081954051,
+    "Total":0.602047067
+  },
+  {
+    "Ref_Date":"2009/03",
+    "Cereal Cream":0.226057582,
+    "Light_Cream":null,
+    "Sour Cream":0.086801116,
+    "Table Cream":0.251987891,
+    "Whipping Cream":0.091440024,
+    "Total":0.656286613
+  },
+  {
+    "Ref_Date":"2009/04",
+    "Cereal Cream":0.255021024,
+    "Light_Cream":null,
+    "Sour Cream":0.089923458,
+    "Table Cream":0.285263139,
+    "Whipping Cream":0.101758622,
+    "Total":0.731966243
+  },
+  {
+    "Ref_Date":"2009/05",
+    "Cereal Cream":0.233164628,
+    "Light_Cream":null,
+    "Sour Cream":0.081478266,
+    "Table Cream":0.256983639,
+    "Whipping Cream":0.094592103,
+    "Total":0.666218636
+  },
+  {
+    "Ref_Date":"2009/06",
+    "Cereal Cream":0.235246189,
+    "Light_Cream":null,
+    "Sour Cream":0.087514794,
+    "Table Cream":0.265071992,
+    "Whipping Cream":0.09976627,
+    "Total":0.687599245
+  },
+  {
+    "Ref_Date":"2009/07",
+    "Cereal Cream":0.242561391,
+    "Light_Cream":null,
+    "Sour Cream":0.101550466,
+    "Table Cream":0.292429658,
+    "Whipping Cream":0.106427267,
+    "Total":0.742968782
+  },
+  {
+    "Ref_Date":"2009/08",
+    "Cereal Cream":0.223738128,
+    "Light_Cream":null,
+    "Sour Cream":0.080496958,
+    "Table Cream":0.255645492,
+    "Whipping Cream":0.095038152,
+    "Total":0.65491873
+  },
+  {
+    "Ref_Date":"2009/09",
+    "Cereal Cream":0.226146792,
+    "Light_Cream":null,
+    "Sour Cream":0.08790137,
+    "Table Cream":0.255645492,
+    "Whipping Cream":0.093610796,
+    "Total":0.66330445
+  },
+  {
+    "Ref_Date":"2009/10",
+    "Cereal Cream":0.313899478,
+    "Light_Cream":null,
+    "Sour Cream":0.092272649,
+    "Table Cream":0.281992114,
+    "Whipping Cream":0.129651547,
+    "Total":0.817815788
+  },
+  {
+    "Ref_Date":"2009/11",
+    "Cereal Cream":0.304294559,
+    "Light_Cream":null,
+    "Sour Cream":0.082370363,
+    "Table Cream":0.244553743,
+    "Whipping Cream":0.106784106,
+    "Total":0.738002771
+  },
+  {
+    "Ref_Date":"2009/12",
+    "Cereal Cream":0.335993767,
+    "Light_Cream":null,
+    "Sour Cream":0.093432376,
+    "Table Cream":0.251868945,
+    "Whipping Cream":0.152013465,
+    "Total":0.833308553
+  },
+  {
+    "Ref_Date":"2010/01",
+    "Cereal Cream":0.247717791,
+    "Light_Cream":null,
+    "Sour Cream":0.083138163,
+    "Table Cream":0.235204649,
+    "Whipping Cream":0.083774424,
+    "Total":0.649835027
+  },
+  {
+    "Ref_Date":"2010/02",
+    "Cereal Cream":0.240234144,
+    "Light_Cream":null,
+    "Sour Cream":0.086864837,
+    "Table Cream":0.221267493,
+    "Whipping Cream":0.083077566,
+    "Total":0.63144404
+  },
+  {
+    "Ref_Date":"2010/03",
+    "Cereal Cream":0.276955519,
+    "Light_Cream":null,
+    "Sour Cream":0.082774585,
+    "Table Cream":0.266442056,
+    "Whipping Cream":0.09968096,
+    "Total":0.72585312
+  },
+  {
+    "Ref_Date":"2010/04",
+    "Cereal Cream":0.262503295,
+    "Light_Cream":null,
+    "Sour Cream":0.095499814,
+    "Table Cream":0.287771964,
+    "Whipping Cream":0.098044859,
+    "Total":0.743819932
+  },
+  {
+    "Ref_Date":"2010/05",
+    "Cereal Cream":0.236901346,
+    "Light_Cream":null,
+    "Sour Cream":0.090621809,
+    "Table Cream":0.261351965,
+    "Whipping Cream":0.096287566,
+    "Total":0.685162686
+  },
+  {
+    "Ref_Date":"2010/06",
+    "Cereal Cream":0.240082653,
+    "Light_Cream":null,
+    "Sour Cream":0.083895617,
+    "Table Cream":0.272259304,
+    "Whipping Cream":0.104983139,
+    "Total":0.701220713
+  },
+  {
+    "Ref_Date":"2010/07",
+    "Cereal Cream":0.257837378,
+    "Light_Cream":null,
+    "Sour Cream":0.099105295,
+    "Table Cream":0.303011941,
+    "Whipping Cream":0.111042772,
+    "Total":0.770997386
+  },
+  {
+    "Ref_Date":"2010/08",
+    "Cereal Cream":0.234174511,
+    "Light_Cream":null,
+    "Sour Cream":0.083804722,
+    "Table Cream":0.269411276,
+    "Whipping Cream":0.089743162,
+    "Total":0.677133671
+  },
+  {
+    "Ref_Date":"2010/09",
+    "Cereal Cream":0.237022539,
+    "Light_Cream":null,
+    "Sour Cream":0.088410043,
+    "Table Cream":0.270411116,
+    "Whipping Cream":0.083562337,
+    "Total":0.679406035
+  },
+  {
+    "Ref_Date":"2010/10",
+    "Cereal Cream":0.260352125,
+    "Light_Cream":null,
+    "Sour Cream":0.08301697,
+    "Table Cream":0.295891872,
+    "Whipping Cream":0.102044217,
+    "Total":0.741305184
+  },
+  {
+    "Ref_Date":"2010/11",
+    "Cereal Cream":0.245051552,
+    "Light_Cream":null,
+    "Sour Cream":0.085198438,
+    "Table Cream":0.277319097,
+    "Whipping Cream":0.087622291,
+    "Total":0.695191378
+  },
+  {
+    "Ref_Date":"2010/12",
+    "Cereal Cream":0.296861413,
+    "Light_Cream":null,
+    "Sour Cream":0.08598619,
+    "Table Cream":0.285348111,
+    "Whipping Cream":0.14276495,
+    "Total":0.810960664
+  },
+  {
+    "Ref_Date":"2011/01",
+    "Cereal Cream":0.217862259,
+    "Light_Cream":null,
+    "Sour Cream":0.095332937,
+    "Table Cream":0.236323189,
+    "Whipping Cream":0.081210618,
+    "Total":0.630729003
+  },
+  {
+    "Ref_Date":"2011/02",
+    "Cereal Cream":0.216027814,
+    "Light_Cream":null,
+    "Sour Cream":0.094139092,
+    "Table Cream":0.229160115,
+    "Whipping Cream":0.080482663,
+    "Total":0.619809684
+  },
+  {
+    "Ref_Date":"2011/03",
+    "Cereal Cream":0.249659317,
+    "Light_Cream":null,
+    "Sour Cream":0.095682356,
+    "Table Cream":0.261568655,
+    "Whipping Cream":0.093673201,
+    "Total":0.700583529
+  },
+  {
+    "Ref_Date":"2011/04",
+    "Cereal Cream":0.286435585,
+    "Light_Cream":null,
+    "Sour Cream":0.110037621,
+    "Table Cream":0.285037912,
+    "Whipping Cream":0.110765575,
+    "Total":0.792276693
+  },
+  {
+    "Ref_Date":"2011/05",
+    "Cereal Cream":0.217309014,
+    "Light_Cream":null,
+    "Sour Cream":0.096322956,
+    "Table Cream":0.272546211,
+    "Whipping Cream":0.095420292,
+    "Total":0.681598473
+  },
+  {
+    "Ref_Date":"2011/06",
+    "Cereal Cream":0.250882281,
+    "Light_Cream":null,
+    "Sour Cream":0.102728956,
+    "Table Cream":0.27030411,
+    "Whipping Cream":0.099030947,
+    "Total":0.722946294
+  },
+  {
+    "Ref_Date":"2011/07",
+    "Cereal Cream":0.259530382,
+    "Light_Cream":null,
+    "Sour Cream":0.122296377,
+    "Table Cream":0.297034604,
+    "Whipping Cream":0.115162421,
+    "Total":0.794023784
+  },
+  {
+    "Ref_Date":"2011/08",
+    "Cereal Cream":0.238215871,
+    "Light_Cream":null,
+    "Sour Cream":0.098419465,
+    "Table Cream":0.279214275,
+    "Whipping Cream":0.103864565,
+    "Total":0.719714176
+  },
+  {
+    "Ref_Date":"2011/09",
+    "Cereal Cream":0.253794099,
+    "Light_Cream":null,
+    "Sour Cream":0.103136611,
+    "Table Cream":0.267625237,
+    "Whipping Cream":0.098623292,
+    "Total":0.723179239
+  },
+  {
+    "Ref_Date":"2011/10",
+    "Cereal Cream":0.272575329,
+    "Light_Cream":null,
+    "Sour Cream":0.097138265,
+    "Table Cream":0.296597831,
+    "Whipping Cream":0.118540131,
+    "Total":0.784851556
+  },
+  {
+    "Ref_Date":"2011/11",
+    "Cereal Cream":0.26485901,
+    "Light_Cream":null,
+    "Sour Cream":0.100865392,
+    "Table Cream":0.263548691,
+    "Whipping Cream":0.106135784,
+    "Total":0.735408877
+  },
+  {
+    "Ref_Date":"2011/12",
+    "Cereal Cream":0.31907707,
+    "Light_Cream":null,
+    "Sour Cream":0.129634159,
+    "Table Cream":0.246922208,
+    "Whipping Cream":0.145212388,
+    "Total":0.840845825
+  },
+  {
+    "Ref_Date":"2012/01",
+    "Cereal Cream":0.231194413,
+    "Light_Cream":null,
+    "Sour Cream":0.097858395,
+    "Table Cream":0.24471792,
+    "Whipping Cream":0.088219299,
+    "Total":0.661990027
+  },
+  {
+    "Ref_Date":"2012/02",
+    "Cereal Cream":0.226187839,
+    "Light_Cream":null,
+    "Sour Cream":0.09285182,
+    "Table Cream":0.253321172,
+    "Whipping Cream":0.091096641,
+    "Total":0.663457472
+  },
+  {
+    "Ref_Date":"2012/03",
+    "Cereal Cream":0.263248001,
+    "Light_Cream":null,
+    "Sour Cream":0.105512124,
+    "Table Cream":0.281029973,
+    "Whipping Cream":0.094837186,
+    "Total":0.744627284
+  },
+  {
+    "Ref_Date":"2012/04",
+    "Cereal Cream":0.258644254,
+    "Light_Cream":null,
+    "Sour Cream":0.104188546,
+    "Table Cream":0.27308851,
+    "Whipping Cream":0.095268787,
+    "Total":0.731190097
+  },
+  {
+    "Ref_Date":"2012/05",
+    "Cereal Cream":0.254155601,
+    "Light_Cream":null,
+    "Sour Cream":0.100419229,
+    "Table Cream":0.283705901,
+    "Whipping Cream":0.102663555,
+    "Total":0.740944286
+  },
+  {
+    "Ref_Date":"2012/06",
+    "Cereal Cream":0.272196534,
+    "Light_Cream":null,
+    "Sour Cream":0.102001767,
+    "Table Cream":0.273692752,
+    "Whipping Cream":0.10531071,
+    "Total":0.753201763
+  },
+  {
+    "Ref_Date":"2012/07",
+    "Cereal Cream":0.272743229,
+    "Light_Cream":null,
+    "Sour Cream":0.114460657,
+    "Table Cream":0.288712476,
+    "Whipping Cream":0.113424814,
+    "Total":0.789341176
+  },
+  {
+    "Ref_Date":"2012/08",
+    "Cereal Cream":0.262787626,
+    "Light_Cream":null,
+    "Sour Cream":0.113280947,
+    "Table Cream":0.322492469,
+    "Whipping Cream":0.103728172,
+    "Total":0.802289214
+  },
+  {
+    "Ref_Date":"2012/09",
+    "Cereal Cream":0.295618096,
+    "Light_Cream":null,
+    "Sour Cream":0.109367762,
+    "Table Cream":0.310033579,
+    "Whipping Cream":0.111727182,
+    "Total":0.826746619
+  },
+  {
+    "Ref_Date":"2012/10",
+    "Cereal Cream":0.318349096,
+    "Light_Cream":null,
+    "Sour Cream":0.105742311,
+    "Table Cream":0.375780839,
+    "Whipping Cream":0.152268928,
+    "Total":0.952141174
+  },
+  {
+    "Ref_Date":"2012/11",
+    "Cereal Cream":0.303156732,
+    "Light_Cream":null,
+    "Sour Cream":0.118805443,
+    "Table Cream":0.31181753,
+    "Whipping Cream":0.120387981,
+    "Total":0.854167686
+  },
+  {
+    "Ref_Date":"2012/12",
+    "Cereal Cream":0.334347117,
+    "Light_Cream":null,
+    "Sour Cream":0.111554541,
+    "Table Cream":0.303444466,
+    "Whipping Cream":0.154542028,
+    "Total":0.903888152
+  },
+  {
+    "Ref_Date":"2013/01",
+    "Cereal Cream":0.228537785,
+    "Light_Cream":0.029324512,
+    "Sour Cream":0.114311557,
+    "Table Cream":0.304252481,
+    "Whipping Cream":0.111524164,
+    "Total":0.787950499
+  },
+  {
+    "Ref_Date":"2013/02",
+    "Cereal Cream":0.221825287,
+    "Light_Cream":0.051908084,
+    "Sour Cream":0.087148696,
+    "Table Cream":0.275809695,
+    "Whipping Cream":0.09525489,
+    "Total":0.731946652
+  },
+  {
+    "Ref_Date":"2013/03",
+    "Cereal Cream":0.293131352,
+    "Light_Cream":0.028158358,
+    "Sour Cream":0.103702397,
+    "Table Cream":0.341370317,
+    "Whipping Cream":0.122247094,
+    "Total":0.888609518
+  },
+  {
+    "Ref_Date":"2013/04",
+    "Cereal Cream":0.241706795,
+    "Light_Cream":0.037174721,
+    "Sour Cream":0.10566495,
+    "Table Cream":0.302602799,
+    "Whipping Cream":0.101398532,
+    "Total":0.788547797
+  },
+  {
+    "Ref_Date":"2013/05",
+    "Cereal Cream":0.235449382,
+    "Light_Cream":0.017719856,
+    "Sour Cream":0.110386452,
+    "Table Cream":0.321773237,
+    "Whipping Cream":0.111296621,
+    "Total":0.796625548
+  },
+  {
+    "Ref_Date":"2013/06",
+    "Cereal Cream":0.245717228,
+    "Light_Cream":0.016610587,
+    "Sour Cream":0.100118606,
+    "Table Cream":0.315259839,
+    "Whipping Cream":0.110983751,
+    "Total":0.788690011
+  },
+  {
+    "Ref_Date":"2013/07",
+    "Cereal Cream":0.271969919,
+    "Light_Cream":0.051140129,
+    "Sour Cream":0.112860975,
+    "Table Cream":0.360000341,
+    "Whipping Cream":0.124294974,
+    "Total":0.920266338
+  },
+  {
+    "Ref_Date":"2013/08",
+    "Cereal Cream":0.254818919,
+    "Light_Cream":0.022612015,
+    "Sour Cream":0.108025701,
+    "Table Cream":0.335624874,
+    "Whipping Cream":0.105067651,
+    "Total":0.82614916
+  },
+  {
+    "Ref_Date":"2013/09",
+    "Cereal Cream":0.254363834,
+    "Light_Cream":0.020336592,
+    "Sour Cream":0.101284761,
+    "Table Cream":0.322768735,
+    "Whipping Cream":0.10566495,
+    "Total":0.804418872
+  },
+  {
+    "Ref_Date":"2013/10",
+    "Cereal Cream":0.305816834,
+    "Light_Cream":0.021047662,
+    "Sour Cream":0.113600487,
+    "Table Cream":0.382839898,
+    "Whipping Cream":0.133595765,
+    "Total":0.956900646
+  },
+  {
+    "Ref_Date":"2013/11",
+    "Cereal Cream":0.262868227,
+    "Light_Cream":0.021076104,
+    "Sour Cream":0.101768288,
+    "Table Cream":0.319270272,
+    "Whipping Cream":0.101967388,
+    "Total":0.806950279
+  },
+  {
+    "Ref_Date":"2013/12",
+    "Cereal Cream":0.31762059,
+    "Light_Cream":0.026025149,
+    "Sour Cream":0.122218651,
+    "Table Cream":0.303171655,
+    "Whipping Cream":0.145342636,
+    "Total":0.914378681
+  },
+  {
+    "Ref_Date":"2014/01",
+    "Cereal Cream":0.246001733,
+    "Light_Cream":0.022509595,
+    "Sour Cream":0.106639205,
+    "Table Cream":0.30143161,
+    "Whipping Cream":0.092373749,
+    "Total":0.768955892
+  },
+  {
+    "Ref_Date":"2014/02",
+    "Cereal Cream":0.248168282,
+    "Light_Cream":0.016600826,
+    "Sour Cream":0.089785146,
+    "Table Cream":0.273125795,
+    "Whipping Cream":0.095299997,
+    "Total":0.722980046
+  },
+  {
+    "Ref_Date":"2014/03",
+    "Cereal Cream":0.245523404,
+    "Light_Cream":0.022171951,
+    "Sour Cream":0.094090106,
+    "Table Cream":0.299827802,
+    "Whipping Cream":0.094371476,
+    "Total":0.755984739
+  },
+  {
+    "Ref_Date":"2014/04",
+    "Cereal Cream":0.281257386,
+    "Light_Cream":0.025942308,
+    "Sour Cream":0.123577675,
+    "Table Cream":0.325967068,
+    "Whipping Cream":0.117894002,
+    "Total":0.874638439
+  },
+  {
+    "Ref_Date":"2014/05",
+    "Cereal Cream":0.262236778,
+    "Light_Cream":0.017529347,
+    "Sour Cream":0.091220133,
+    "Table Cream":0.342173977,
+    "Whipping Cream":0.105007259,
+    "Total":0.818167494
+  },
+  {
+    "Ref_Date":"2014/06",
+    "Cereal Cream":0.257537901,
+    "Light_Cream":0.019977265,
+    "Sour Cream":0.107258219,
+    "Table Cream":0.325235507,
+    "Whipping Cream":0.111985234,
+    "Total":0.821994126
+  },
+  {
+    "Ref_Date":"2014/07",
+    "Cereal Cream":0.274138727,
+    "Light_Cream":0.017838854,
+    "Sour Cream":0.124421785,
+    "Table Cream":0.361025762,
+    "Whipping Cream":0.122170825,
+    "Total":0.899595953
+  },
+  {
+    "Ref_Date":"2014/08",
+    "Cereal Cream":0.192006843,
+    "Light_Cream":0.018795512,
+    "Sour Cream":0.107820959,
+    "Table Cream":0.326192164,
+    "Whipping Cream":0.106864301,
+    "Total":0.751679779
+  },
+  {
+    "Ref_Date":"2014/09",
+    "Cereal Cream":0.275264206,
+    "Light_Cream":0.027940034,
+    "Sour Cream":0.117246851,
+    "Table Cream":0.326389123,
+    "Whipping Cream":0.10593578,
+    "Total":0.852775994
+  },
+  {
+    "Ref_Date":"2014/10",
+    "Cereal Cream":0.322084163,
+    "Light_Cream":0.028362089,
+    "Sour Cream":0.109452904,
+    "Table Cream":0.376726205,
+    "Whipping Cream":0.115502358,
+    "Total":0.952127719
+  },
+  {
+    "Ref_Date":"2014/11",
+    "Cereal Cream":0.261899135,
+    "Light_Cream":0.024591732,
+    "Sour Cream":0.110916028,
+    "Table Cream":0.316484902,
+    "Whipping Cream":0.108608794,
+    "Total":0.822500591
+  },
+  {
+    "Ref_Date":"2014/12",
+    "Cereal Cream":0.354835624,
+    "Light_Cream":0.043021463,
+    "Sour Cream":0.12774195,
+    "Table Cream":0.318173121,
+    "Whipping Cream":0.155372478,
+    "Total":0.999144636
+  }
+]
