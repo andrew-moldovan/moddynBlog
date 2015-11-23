@@ -1,9 +1,9 @@
-# simplysocial -- Bootstrap-Free Demo Project
+# modata
+Blog site for data visualizations about datasets that have fallen through the cracks of normal news sites.
 
-I wanted to play with building a fully responsive front-end without using Bootstrap and to see how difficult it would be.
 
 ##Seed
-I used the [gulp angular yo generator](https://github.com/Swiip/generator-gulp-angular) to get started. I hadn't used this generator before, so I figured I would give it a try for this project. I found it to be really awesome, giving all the necessary tools right out of the box. 
+I used the [gulp angular yo generator](https://github.com/Swiip/generator-gulp-angular) to get started.
 
 ##Setup
 ##### Install required tools `gulp` and `bower`:
