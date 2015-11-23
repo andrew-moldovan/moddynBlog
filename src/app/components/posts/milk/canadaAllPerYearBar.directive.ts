@@ -15,7 +15,7 @@ module moddynBlog {
         scope.mcc.d3Service.d3().then(d3 => {
           scope.mcc.d3HelperService.getData('/assets/data/milk/Canada_All_Per_Year_No_Total.json').then((data: any) => {
             var margin = { top: 20, right: 20, bottom: 30, left: 40 },
-              width = 1260 - margin.left - margin.right,
+              width = 960 - margin.left - margin.right,
               height = 500 - margin.top - margin.bottom;
 
             var parseDate = d3.time.format("%Y").parse;
