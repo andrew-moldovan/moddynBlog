@@ -24,7 +24,7 @@ module moddynBlog {
         .scale(y)
         .orient("left");
 
-      var svg = this.d3HelperService.createSVG(d3, width, height, margin, data, ele, cssClass);
+      var svg = this.d3HelperService.createSVG(d3, height, margin, data, ele, cssClass);
 
       color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Ref_Date"; }));
 
