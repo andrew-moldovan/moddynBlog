@@ -1,13 +1,44 @@
 .post-content {
+  margin-top:5rem;
   padding: 1rem;
   background: white;
   border-radius: $md-border-radius;
   width: 100%;
+  position:relative;
+
+  &:before{
+    @include regular-vertical-line;
+    top: -5rem;
+    z-index:-1;
+  }
 
   p {
     font-weight: 500;
     font-size: 1.7rem;
     line-height: 2.8rem;  
+    margin-top: -.7rem;
   }
-  
+
+  .post-title{
+    @include regular-post-title();
+    margin-bottom:4rem;
+    margin-left: 1.3rem;
+  }
+
+  .post-image {
+    padding-bottom: 1rem;
+    margin: auto 0;
+    width: 100%;
+  }
+
+}
+
+.post-content-small{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.top-line{
+	@include regular-horizontal-top-line();
 }

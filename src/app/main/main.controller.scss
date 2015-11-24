@@ -1,24 +1,15 @@
 .logo-image{
-	display:block;
+  display:block;
   margin:auto;
   padding: 2rem 0 2rem;
 }
 
 .top-line{
-	width: 22rem;
-  border-top: .2rem solid #e5e5e5;
-  margin: 0 auto;
+	@include regular-horizontal-top-line();
 }
 
 .sub-content:before{
-	position: absolute;
-  top: -2rem;
-  left: 50%;
-  margin-left: -.1rem;
-  width: .2rem;
-  height: 100%;
-  background: #e5e5e5;
-  content: '';
+  @include regular-vertical-line();
 }
 
 .sub-content{
@@ -57,7 +48,7 @@
     }
 
     .post-title{      
-      font-size: 5rem;
+      @include regular-post-title();
     }
 
     .post-body-description{
