@@ -6,7 +6,7 @@ module moddynBlog {
     /** @ngInject */
     constructor(private d3HelperService:any) {}
 
-    public createBarChart(d3, svg, width, height, margin, data, ele, title, parseDate) {
+    public createBarChart(d3, svg, width, height, margin, data, title) {
       var x = d3.scale.ordinal()
         .rangeRoundBands([0, width], .1);
 

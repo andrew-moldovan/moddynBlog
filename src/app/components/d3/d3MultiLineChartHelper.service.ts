@@ -6,9 +6,7 @@ module moddynBlog {
     /** @ngInject */
     constructor(private d3HelperService: any) { }
 
-    public createMultiLine(d3, margin, data, ele, cssClass, parseDate, title) {
-      var width = ele.parent().width() - margin.left - margin.right;
-      var height = 500 - margin.top - margin.bottom;
+    public createMultiLine(d3, svg, width, height, margin, data, title, parseDate) {
 
       var x = this.createX(d3, width);
       var y = this.createY(d3, height);
@@ -17,7 +15,6 @@ module moddynBlog {
       var yAxis = this.d3HelperService.createYAxis(d3, y, "left");
 
       var line = this.createLine(d3, x, y, "date", "litres");
-      var svg = this.d3HelperService.createSVG(d3, width, height, margin, ele, cssClass);
       this.createColorDomain(d3, color, data);
       this.parseDates(data, parseDate, "Ref_Date");
       var milk = this.createDataArray(color, data, "Ref_Date");
