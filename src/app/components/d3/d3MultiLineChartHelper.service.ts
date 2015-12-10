@@ -126,7 +126,7 @@ module moddynBlog {
         .attr("class", "eachLine");
 
       // create a line for each one
-      eachLineEnter.append("path")
+      var path = eachLineEnter.append("path")
         .attr("class", "line")
         .attr("d", function(d) {
           // the line function takes in an array of values and draws the whole thing in one go
@@ -135,6 +135,19 @@ module moddynBlog {
         .style("stroke", function(d) {
           return color(d.name);
         });
+      
+      if (path.node()) {
+        // this only happens if there is something to be entering
+        var totalLength = path.node().getTotalLength();
+
+        path.attr("stroke-dasharray", totalLength + " " + totalLength)
+          .attr("stroke-dashoffset", totalLength)
+          .transition()
+          .duration(750)
+          .ease("linear")
+          .attr("stroke-dashoffset", 0);
+      }
+        
 
       eachLineEnter.append("text")
         .datum(function(d) { 
@@ -145,7 +158,11 @@ module moddynBlog {
         .attr("dy", ".35em")
         .text(function(d) { return d.name; });
 
-      eachLine.exit().remove();
+      eachLine.exit()
+        .transition()
+        .duration(500)
+        .style("opacity", 0)
+        .remove();
     }
 
     public createButtons(d3, svg, width, margin, data, color, x, y, line, dateProp, valueProp) {
@@ -169,7 +186,7 @@ module moddynBlog {
         .on("click", function(d) {
           if (that.deletedData[d.name]) {
             d3.select(this).attr("fill", 'blue');
-            that.addDataLine(that.deletedData[d.name], data);
+            that.addDataLine(that.deletedData[d.name], data, that, d);
             that.drawLine(svg, data, color, x, y, line, dateProp, valueProp);
           } else {
             d3.select(this).attr("fill", 'black');
@@ -179,8 +196,9 @@ module moddynBlog {
         });
     }
 
-    public addDataLine(dataToAdd, data) {
+    public addDataLine(dataToAdd, data, that, d) {
       data.push(dataToAdd);
+      that.deletedData[d.name] = undefined;
     }
 
     public removeDataLine(data, d, that) {
