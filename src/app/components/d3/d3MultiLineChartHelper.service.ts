@@ -3,6 +3,7 @@ module moddynBlog {
 
   export class d3MultiLineChartHelperService{
     public deletedData = [];
+    public leftMargin = 75;
 
     /** @ngInject */
     constructor(private d3HelperService: any) { }
@@ -13,7 +14,7 @@ module moddynBlog {
       var y = this.createY(d3, height);
       var color = d3.scale.category10();
       var xAxis = this.d3HelperService.createXAxis(d3, x, "bottom");
-      var yAxis = this.d3HelperService.createYAxis(d3, y, "left");
+      var yAxis = this.d3HelperService.createYAxis(d3, y, "right");
 
       var line = this.createLine(d3, x, y, "date", "litres");
       this.createColorDomain(d3, color, data);
@@ -98,19 +99,22 @@ module moddynBlog {
     public drawXAxis(svg, xAxis, height) {
       svg.append("g")
         .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
+        .attr("transform", "translate("+this.leftMargin+"," + height + ")")
         .call(xAxis);
     }
 
     public drawYAxis(svg, yAxis, text) {
       svg.append("g")
         .attr("class", "y axis")
+        .attr("transform", "translate(" + this.leftMargin + ", 0)")
         .call(yAxis)
         .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("y", 6)
+        .attr("y", 25)
         .attr("dy", ".71em")
         .style("text-anchor", "end")
+        .style("fill", 'red')
+        .style("z-index", 9999)
         .text(text);
     }
 
@@ -128,6 +132,7 @@ module moddynBlog {
       // create a line for each one
       var path = eachLineEnter.append("path")
         .attr("class", "line")
+        .attr("transform", "translate(" + this.leftMargin + ", 0)")
         .attr("d", function(d) {
           // the line function takes in an array of values and draws the whole thing in one go
           return line(d.values);
@@ -138,7 +143,7 @@ module moddynBlog {
       
       if (path.node()) {
         // this only happens if there is something to be entering
-        var totalLength = path.node().getTotalLength();
+        var totalLength = path.node().getTotalLength() + 5000;
 
         path.attr("stroke-dasharray", totalLength + " " + totalLength)
           .attr("stroke-dashoffset", totalLength)
@@ -147,16 +152,6 @@ module moddynBlog {
           .ease("linear")
           .attr("stroke-dashoffset", 0);
       }
-        
-
-      eachLineEnter.append("text")
-        .datum(function(d) { 
-          return { name: d.name, value: d.values[d.values.length - 1] }; 
-        })
-        .attr("transform", function(d) { return "translate(" + x(d.value[dateProp]) + "," + y(d.value[valueProp]) + ")"; })
-        .attr("x", 3)
-        .attr("dy", ".35em")
-        .text(function(d) { return d.name; });
 
       eachLine.exit()
         .transition()
@@ -172,14 +167,13 @@ module moddynBlog {
         .data(data, function(d) {
           return d.name;
         })
-        .enter()
-        .append("g");
+        .enter();
 
       options.append('text')
-        .attr('x', function(d, i) { 
-          return ((d.name.length * 10) + parseInt(i)*70)
+        .attr('x', this.leftMargin-5)
+        .attr('y', function (d, i) {
+          return (i * 20) + 10;
         })
-        .attr('y', 0)
         .attr('class', 'option-text')
         .attr('fill', 'blue')
         .text(function(d) { return d.name })
