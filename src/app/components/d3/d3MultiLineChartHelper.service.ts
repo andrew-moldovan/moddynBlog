@@ -155,12 +155,36 @@ module moddynBlog {
         })
         .on("mouseover", function(d) {
           var xPos = parseInt(d3.mouse(this)[0]) + that.leftMargin;
+          var yPos = parseInt(d3.mouse(this)[1]);
+          console.log(yPos);
           svg.append("circle")
             .attr('cx', xPos)
             .attr('cy', d3.mouse(this)[1])
             .attr('r', 5)
-            .attr('fill', 'red')
+            .attr('fill', 'none')
+            .attr('stroke', "red")
+            .attr('stroke-width', "2px")
             .attr('class', 'mouse-over-circle');
+
+          //draw vertical line down to axis
+          svg.append('line')
+            .attr('x1', xPos)
+            .attr('y1', yPos)
+            .attr('x2', xPos)
+            .attr('y2', height)
+            .attr('stroke', "red")
+            .attr('stroke-width', "2")
+            .attr('class', 'mouse-over-line');
+
+          //draw horizontal line to axis
+          svg.append('line')
+            .attr('x1', xPos)
+            .attr('y1', yPos)
+            .attr('x2', 0+that.leftMargin)
+            .attr('y2', yPos)
+            .attr('stroke', "red")
+            .attr('stroke-width', "2")
+            .attr('class', 'mouse-over-line');
 
           var dateObj = new Date(x.invert(d3.mouse(this)[0]));
           var dateYear = dateObj.getFullYear();
@@ -170,6 +194,9 @@ module moddynBlog {
           tooltip.html(d.name + "<br/>" + dateMonth + " " + dateYear + "<br/>Consumption per capita: " + value.toFixed(1) + "L")
         })
         .on("mouseout", function(d) {
+          svg.selectAll('.mouse-over-line')
+            .remove();
+
           svg.transition()
             .duration(200)
             .selectAll('.mouse-over-circle')
