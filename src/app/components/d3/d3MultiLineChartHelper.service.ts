@@ -4,6 +4,10 @@ module moddynBlog {
   export class d3MultiLineChartHelperService{
     public deletedData = [];
     public leftMargin = 75;
+    public monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+
 
     /** @ngInject */
     constructor(private d3HelperService: any) { }
@@ -26,7 +30,7 @@ module moddynBlog {
 
       this.drawXAxis(svg, xAxis, height);
       this.drawYAxis(svg, yAxis, 'Litres drunk per capita (L)');
-      this.drawLine(svg, dataArr, color, x, y, line, "date", "litres");
+      this.drawLine(d3, svg, dataArr, color, x, y, line, "date", "litres");
       this.d3HelperService.createTitle(svg, width, margin, title);
       this.createButtons(d3, svg, width, margin, dataArr, color, x, y, line, 'date', 'litres');
     }
@@ -118,7 +122,11 @@ module moddynBlog {
         .text(text);
     }
 
-    public drawLine(svg, data, color, x, y, line, dateProp, valueProp) {
+    public drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp) {
+      var bisectDate = d3.bisector(function(d) {
+        return d.date;
+      }).left;
+
       // create a holder for each line in the multi-line chart
       var eachLine = svg.selectAll(".eachLine")
         .data(data, function(d) {
@@ -129,6 +137,11 @@ module moddynBlog {
         .append("g")
         .attr("class", "eachLine");
 
+      var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+      var that = this;
       // create a line for each one
       var path = eachLineEnter.append("path")
         .attr("class", "line")
@@ -139,6 +152,25 @@ module moddynBlog {
         })
         .style("stroke", function(d) {
           return color(d.name);
+        })
+        .on("mouseover", function(d) {
+          var dateObj = new Date(x.invert(d3.mouse(this)[0]));
+          var dateYear = dateObj.getFullYear();
+          var dateMonth = that.monthNames[dateObj.getMonth()];
+          var value = y.invert(d3.mouse(this)[1]);
+          console.log(d);
+
+          tooltip.transition()
+            .duration(100)
+            .style("opacity", .9);
+          tooltip.html(d.name + "<br/>" + dateMonth + " " + dateYear + "<br/>Consumption per capita: " + value.toFixed(1) + "L")
+            .style("left", (d3.event.pageX + 5) + "px")
+            .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+          tooltip.transition()
+            .duration(400)
+            .style("opacity", 0);
         });
       
       if (path.node()) {
@@ -181,11 +213,11 @@ module moddynBlog {
           if (that.deletedData[d.name]) {
             d3.select(this).attr("fill", 'blue');
             that.addDataLine(that.deletedData[d.name], data, that, d);
-            that.drawLine(svg, data, color, x, y, line, dateProp, valueProp);
+            that.drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp);
           } else {
             d3.select(this).attr("fill", 'black');
             that.removeDataLine(data, d, that);
-            that.drawLine(svg, data, color, x, y, line, dateProp, valueProp);
+            that.drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp);
           }
         });
     }
