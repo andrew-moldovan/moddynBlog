@@ -12,7 +12,7 @@ module moddynBlog {
     /** @ngInject */
     constructor(private d3HelperService: any) { }
 
-    public createMultiLine(d3, svg, width, height, margin, data, title, parseDate) {
+    public createMultiLine(d3, svg, ele, width, height, margin, data, title, parseDate) {
 
       var x = this.createX(d3, width);
       var y = this.createY(d3, height);
@@ -30,9 +30,9 @@ module moddynBlog {
 
       this.drawXAxis(svg, xAxis, height);
       this.drawYAxis(svg, yAxis, 'Litres drunk per capita (L)');
-      this.drawLine(d3, svg, dataArr, color, x, y, line, "date", "litres");
+      this.drawLine(d3, svg, ele, dataArr, color, x, y, line, "date", "litres", height);
       this.d3HelperService.createTitle(svg, width, margin, title);
-      this.createButtons(d3, svg, width, margin, dataArr, color, x, y, line, 'date', 'litres');
+      this.createButtons(d3, svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height);
     }
 
     public createLine(d3, x, y, xProp, yProp) {
@@ -122,7 +122,7 @@ module moddynBlog {
         .text(text);
     }
 
-    public drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp) {
+    public drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height) {
       var bisectDate = d3.bisector(function(d) {
         return d.date;
       }).left;
@@ -137,9 +137,9 @@ module moddynBlog {
         .append("g")
         .attr("class", "eachLine");
 
-      var tooltip = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0);
+      var tooltip = d3.select(ele[0]).append("div")
+        .style('margin-top', '-' + (height+50) + 'px')
+        .attr("class", "tooltip");
 
       var that = this;
       // create a line for each one
@@ -154,23 +154,26 @@ module moddynBlog {
           return color(d.name);
         })
         .on("mouseover", function(d) {
+          var xPos = parseInt(d3.mouse(this)[0]) + that.leftMargin;
+          svg.append("circle")
+            .attr('cx', xPos)
+            .attr('cy', d3.mouse(this)[1])
+            .attr('r', 5)
+            .attr('fill', 'red')
+            .attr('class', 'mouse-over-circle');
+
           var dateObj = new Date(x.invert(d3.mouse(this)[0]));
           var dateYear = dateObj.getFullYear();
           var dateMonth = that.monthNames[dateObj.getMonth()];
           var value = y.invert(d3.mouse(this)[1]);
-          console.log(d);
 
-          tooltip.transition()
-            .duration(100)
-            .style("opacity", .9);
           tooltip.html(d.name + "<br/>" + dateMonth + " " + dateYear + "<br/>Consumption per capita: " + value.toFixed(1) + "L")
-            .style("left", (d3.event.pageX + 5) + "px")
-            .style("top", (d3.event.pageY - 28) + "px");
         })
         .on("mouseout", function(d) {
-          tooltip.transition()
-            .duration(400)
-            .style("opacity", 0);
+          svg.transition()
+            .duration(200)
+            .selectAll('.mouse-over-circle')
+            .remove();
         });
       
       if (path.node()) {
@@ -192,7 +195,7 @@ module moddynBlog {
         .remove();
     }
 
-    public createButtons(d3, svg, width, margin, data, color, x, y, line, dateProp, valueProp) {
+    public createButtons(d3, svg, ele, width, margin, data, color, x, y, line, dateProp, valueProp, height) {
       var optionsStart = 20;
       var that = this;
       var options = svg.selectAll(".option")
@@ -213,11 +216,11 @@ module moddynBlog {
           if (that.deletedData[d.name]) {
             d3.select(this).attr("fill", 'blue');
             that.addDataLine(that.deletedData[d.name], data, that, d);
-            that.drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp);
+            that.drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height);
           } else {
             d3.select(this).attr("fill", 'black');
             that.removeDataLine(data, d, that);
-            that.drawLine(d3, svg, data, color, x, y, line, dateProp, valueProp);
+            that.drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height);
           }
         });
     }

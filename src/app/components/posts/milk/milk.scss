@@ -15,7 +15,7 @@
   .line {
     fill: none;
     stroke: steelblue;
-    stroke-width: 1.5px;
+    stroke-width: 2px;
   }
 
   .bar {
@@ -33,4 +33,9 @@
   padding: .5rem;
   border-radius: .3rem;
   color: white;
+  position: absolute;
+  width: 20rem;
+  right: 2rem;
+  // margin-top: -48rem;
+  opacity: 1;
 }
