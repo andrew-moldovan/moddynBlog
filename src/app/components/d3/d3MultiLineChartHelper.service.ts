@@ -156,7 +156,7 @@ module moddynBlog {
         .on("mouseover", function(d) {
           var xPos = parseInt(d3.mouse(this)[0]) + that.leftMargin;
           var yPos = parseInt(d3.mouse(this)[1]);
-          console.log(yPos);
+
           svg.append("circle")
             .attr('cx', xPos)
             .attr('cy', d3.mouse(this)[1])
@@ -180,7 +180,7 @@ module moddynBlog {
           svg.append('line')
             .attr('x1', xPos)
             .attr('y1', yPos)
-            .attr('x2', 0+that.leftMargin)
+            .attr('x2', that.leftMargin)
             .attr('y2', yPos)
             .attr('stroke', "red")
             .attr('stroke-width', "2")
@@ -194,13 +194,7 @@ module moddynBlog {
           tooltip.html(d.name + "<br/>" + dateMonth + " " + dateYear + "<br/>Consumption per capita: " + value.toFixed(1) + "L")
         })
         .on("mouseout", function(d) {
-          svg.selectAll('.mouse-over-line')
-            .remove();
-
-          svg.transition()
-            .duration(200)
-            .selectAll('.mouse-over-circle')
-            .remove();
+          that.mouseOut(svg, true);
         });
       
       if (path.node()) {
@@ -219,6 +213,13 @@ module moddynBlog {
         .transition()
         .duration(500)
         .style("opacity", 0)
+        .remove();
+    }
+
+    public mouseOut(svg, transition) {
+      svg.selectAll('.mouse-over-line')
+        .remove();
+      svg.selectAll('.mouse-over-circle')
         .remove();
     }
 
