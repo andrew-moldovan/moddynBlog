@@ -7,36 +7,36 @@ module moddynBlog {
     public monthNames = ["January", "February", "March", "April", "May", "June",
       "July", "August", "September", "October", "November", "December"
     ];
-
+    public d3;
 
     /** @ngInject */
     constructor(private d3HelperService: any) { }
 
     public createMultiLine(d3, svg, ele, width, height, margin, data, title, parseDate) {
-
-      var x = this.createX(d3, width);
-      var y = this.createY(d3, height);
+      this.d3 = d3;
+      var x = this.createX(width);
+      var y = this.createY(height);
       var color = d3.scale.category10();
-      var xAxis = this.d3HelperService.createXAxis(d3, x, "bottom");
-      var yAxis = this.d3HelperService.createYAxis(d3, y, "right");
+      var xAxis = this.d3HelperService.createXAxis(this.d3, x, "bottom");
+      var yAxis = this.d3HelperService.createYAxis(this.d3, y, "right");
 
-      var line = this.createLine(d3, x, y, "date", "litres");
-      this.createColorDomain(d3, color, data);
+      var line = this.createLine(x, y, "date", "litres");
+      this.createColorDomain(color, data);
       this.parseDates(data, parseDate, "Ref_Date");
       var dataArr = this.createDataArray(color, data, "Ref_Date");
 
-      this.createXDomain(d3, x, data, "Ref_Date");
-      this.createYDomain(d3, y, dataArr, "litres");
+      this.createXDomain(x, data, "Ref_Date");
+      this.createYDomain(y, dataArr, "litres");
 
       this.drawXAxis(svg, xAxis, height);
       this.drawYAxis(svg, yAxis, 'Litres drunk per capita (L)');
-      this.drawLine(d3, svg, ele, dataArr, color, x, y, line, "date", "litres", height);
+      this.drawLine(svg, ele, dataArr, color, x, y, line, "date", "litres", height);
       this.d3HelperService.createTitle(svg, width, margin, title);
-      this.createButtons(d3, svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height);
+      this.createButtons(svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height);
     }
 
-    public createLine(d3, x, y, xProp, yProp) {
-      var line = d3.svg.line()
+    public createLine(x, y, xProp, yProp) {
+      var line = this.d3.svg.line()
         .interpolate("basis")
         .x(function(d) {
           return x(d[xProp]);
@@ -47,13 +47,13 @@ module moddynBlog {
       return line;
     }
 
-    public createX(d3, width) {
-      var x = d3.time.scale().range([0, width]);
+    public createX(width) {
+      var x = this.d3.time.scale().range([0, width]);
       return x;
     }
 
-    public createY(d3, height) {
-      var y = d3.scale.linear().range([height, 0]);
+    public createY(height) {
+      var y = this.d3.scale.linear().range([height, 0]);
       return y;
     }
 
@@ -69,8 +69,8 @@ module moddynBlog {
       return milk;
     }
 
-    public createColorDomain(d3, color, data) {
-      color.domain(d3.keys(data[0]).filter(function(key) {
+    public createColorDomain(color, data) {
+      color.domain(this.d3.keys(data[0]).filter(function(key) {
         return key !== "Ref_Date";
       }));
     }
@@ -81,19 +81,20 @@ module moddynBlog {
       });
     }
 
-    public createXDomain(d3, x, data, xProp) {
-      x.domain(d3.extent(data, function(d) { return d[xProp]; }));
+    public createXDomain(x, data, xProp) {
+      x.domain(this.d3.extent(data, function(d) { return d[xProp]; }));
     }
 
-    public createYDomain(d3, y, data, prop) {
+    public createYDomain(y, data, prop) {
+      var that = this;
       y.domain([
-        d3.min(data, function(c) {
-          return d3.min(c.values, function(v) {
+        this.d3.min(data, function(c) {
+          return that.d3.min(c.values, function(v) {
             return v[prop];
           });
         }),
-        d3.max(data, function(c) {
-          return d3.max(c.values, function(v) {
+        this.d3.max(data, function(c) {
+          return that.d3.max(c.values, function(v) {
             return v[prop];
           });
         })
@@ -122,8 +123,8 @@ module moddynBlog {
         .text(text);
     }
 
-    public drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height) {
-      var bisectDate = d3.bisector(function(d) {
+    public drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height) {
+      var bisectDate = this.d3.bisector(function(d) {
         return d.date;
       }).left;
 
@@ -137,7 +138,7 @@ module moddynBlog {
         .append("g")
         .attr("class", "eachLine");
 
-      var tooltip = d3.select(ele[0]).append("div")
+      var tooltip = this.d3.select(ele[0]).append("div")
         .style('margin-top', '-' + (height+50) + 'px')
         .attr("class", "tooltip");
 
@@ -154,12 +155,12 @@ module moddynBlog {
           return color(d.name);
         })
         .on("mouseover", function(d) {
-          var xPos = parseInt(d3.mouse(this)[0]) + that.leftMargin;
-          var yPos = parseInt(d3.mouse(this)[1]);
+          var xPos = parseInt(that.d3.mouse(this)[0]) + that.leftMargin;
+          var yPos = parseInt(that.d3.mouse(this)[1]);
 
           svg.append("circle")
             .attr('cx', xPos)
-            .attr('cy', d3.mouse(this)[1])
+            .attr('cy', that.d3.mouse(this)[1])
             .attr('r', 5)
             .attr('fill', 'none')
             .attr('stroke', "red")
@@ -186,10 +187,10 @@ module moddynBlog {
             .attr('stroke-width', "2")
             .attr('class', 'mouse-over-line');
 
-          var dateObj = new Date(x.invert(d3.mouse(this)[0]));
+          var dateObj = new Date(x.invert(that.d3.mouse(this)[0]));
           var dateYear = dateObj.getFullYear();
           var dateMonth = that.monthNames[dateObj.getMonth()];
-          var value = y.invert(d3.mouse(this)[1]);
+          var value = y.invert(that.d3.mouse(this)[1]);
 
           tooltip.html(d.name + "<br/>" + dateMonth + " " + dateYear + "<br/>Consumption per capita: " + value.toFixed(1) + "L")
         })
@@ -223,7 +224,7 @@ module moddynBlog {
         .remove();
     }
 
-    public createButtons(d3, svg, ele, width, margin, data, color, x, y, line, dateProp, valueProp, height) {
+    public createButtons(svg, ele, width, margin, data, color, x, y, line, dateProp, valueProp, height) {
       var optionsStart = 20;
       var that = this;
       var options = svg.selectAll(".option")
@@ -242,13 +243,13 @@ module moddynBlog {
         .text(function(d) { return d.name })
         .on("click", function(d) {
           if (that.deletedData[d.name]) {
-            d3.select(this).attr("fill", 'blue');
+            that.d3.select(this).attr("fill", 'blue');
             that.addDataLine(that.deletedData[d.name], data, that, d);
-            that.drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height);
+            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height);
           } else {
-            d3.select(this).attr("fill", 'black');
+            that.d3.select(this).attr("fill", 'black');
             that.removeDataLine(data, d, that);
-            that.drawLine(d3, svg, ele, data, color, x, y, line, dateProp, valueProp, height);
+            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height);
           }
         });
     }
