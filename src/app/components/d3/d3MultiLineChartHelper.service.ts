@@ -197,27 +197,7 @@ module moddynBlog {
         .on("mouseout", function(d) {
           that.mouseOut(svg, true);
         });
-      
-      if (path.node()) {
-        // this only happens if there is something to be entering
-        var totalLength;
-        var offset;
-        if (fromUpdate) {
-          totalLength = path.node().getTotalLength();
-          offset = 0;
-        } else {
-          totalLength = path.node().getTotalLength() + 5000;
-          offset = totalLength;
-        }
-
-        path.attr("stroke-dasharray", totalLength + " " + totalLength)
-          .attr("stroke-dashoffset", offset)
-          .transition()
-          .duration(750)
-          .ease("linear")
-          .attr("stroke-dashoffset", 0);
-      }
-
+        
       eachLine.exit()
         .transition()
         .duration(500)
