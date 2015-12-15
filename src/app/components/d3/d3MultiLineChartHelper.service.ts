@@ -30,9 +30,9 @@ module moddynBlog {
 
       this.drawXAxis(svg, xAxis, height);
       this.drawYAxis(svg, yAxis, 'Litres drunk per capita (L)');
-      this.drawLine(svg, ele, dataArr, color, x, y, line, "date", "litres", height);
+      this.drawLine(svg, ele, dataArr, color, x, y, line, "date", "litres", height, false);
       this.d3HelperService.createTitle(svg, width, margin, title);
-      this.createButtons(svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height);
+      this.createButtons(svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height, xAxis, yAxis);
     }
 
     public createLine(x, y, xProp, yProp) {
@@ -123,7 +123,7 @@ module moddynBlog {
         .text(text);
     }
 
-    public drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height) {
+    public drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height, fromUpdate) {
       var bisectDate = this.d3.bisector(function(d) {
         return d.date;
       }).left;
@@ -200,10 +200,18 @@ module moddynBlog {
       
       if (path.node()) {
         // this only happens if there is something to be entering
-        var totalLength = path.node().getTotalLength() + 5000;
+        var totalLength;
+        var offset;
+        if (fromUpdate) {
+          totalLength = path.node().getTotalLength();
+          offset = 0;
+        } else {
+          totalLength = path.node().getTotalLength() + 5000;
+          offset = totalLength;
+        }
 
         path.attr("stroke-dasharray", totalLength + " " + totalLength)
-          .attr("stroke-dashoffset", totalLength)
+          .attr("stroke-dashoffset", offset)
           .transition()
           .duration(750)
           .ease("linear")
@@ -224,7 +232,7 @@ module moddynBlog {
         .remove();
     }
 
-    public createButtons(svg, ele, width, margin, data, color, x, y, line, dateProp, valueProp, height) {
+    public createButtons(svg, ele, width, margin, data, color, x, y, line, dateProp, valueProp, height, xAxis, yAxis) {
       var optionsStart = 20;
       var that = this;
       var options = svg.selectAll(".option")
@@ -242,15 +250,19 @@ module moddynBlog {
         .attr('fill', 'blue')
         .text(function(d) { return d.name })
         .on("click", function(d) {
+
           if (that.deletedData[d.name]) {
             that.d3.select(this).attr("fill", 'blue');
             that.addDataLine(that.deletedData[d.name], data, that, d);
-            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height);
+            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height, true);
+            that.updateChart(svg, data, x, y, valueProp, line, xAxis, yAxis);
           } else {
             that.d3.select(this).attr("fill", 'black');
             that.removeDataLine(data, d, that);
-            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height);
+            that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height, true);
+            that.updateChart(svg, data, x, y, valueProp, line, xAxis, yAxis);
           }
+          
         });
     }
 
@@ -265,6 +277,20 @@ module moddynBlog {
           that.deletedData[d.name] = (data.splice(i, 1)[0]);
         }
       }
+    }
+
+    public updateChart(svg, data, x, y, valueProp, line, xAxis, yAxis) {
+      this.createYDomain(y, data, valueProp);
+      var svgDuration = svg.transition();
+      svgDuration.select(".y.axis") // change the y axis
+          .duration(750)
+          .call(yAxis);
+      svgDuration.selectAll(".line")   // change the line
+        .duration(750)
+        .attr("d", function(d) {
+          // the line function takes in an array of values and draws the whole thing in one go
+          return line(d.values);
+        });
     }
   }
 }
