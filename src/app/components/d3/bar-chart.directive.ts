@@ -1,6 +1,6 @@
 module moddynBlog {
   'use strict';
-  
+
   /** @ngInject */
   export function barChart(): ng.IDirective {
 

@@ -13,6 +13,7 @@ module moddynBlog {
     constructor(private d3HelperService: any) { }
 
     public createMultiLine(d3, svg, ele, width, height, margin, data, title, parseDate) {
+      var that = this;
       this.d3 = d3;
       var x = this.createX(width);
       var y = this.createY(height);
@@ -33,6 +34,21 @@ module moddynBlog {
       this.drawLine(svg, ele, dataArr, color, x, y, line, "date", "litres", height, false);
       this.d3HelperService.createTitle(svg, width, margin, title);
       this.createButtons(svg, ele, width, margin, dataArr, color, x, y, line, 'date', 'litres', height, xAxis, yAxis);
+
+      return {x: x, y: y};
+    }
+
+    public resize(width, svg, height, xAndY) {
+      var x = xAndY.x.range([0, width]);
+      var xAxis = this.d3HelperService.createXAxis(this.d3, x, "bottom");
+      var line = this.createLine(x, xAndY.y, "date", "litres");
+
+      svg.select(".x.axis") // change the x axis
+          .call(xAxis);
+      svg.selectAll(".line")   // change the line
+        .attr("d", function(d) {
+          return line(d.values);
+        });
     }
 
     public createLine(x, y, xProp, yProp) {
@@ -74,7 +90,7 @@ module moddynBlog {
         return key !== "Ref_Date";
       }));
     }
-    
+
     public parseDates(data, parseDate, dateProp) {
       data.forEach(function(d) {
         d[dateProp] = parseDate(d[dateProp] + "");
@@ -197,7 +213,7 @@ module moddynBlog {
         .on("mouseout", function(d) {
           that.mouseOut(svg, true);
         });
-        
+
       eachLine.exit()
         .transition()
         .duration(500)
@@ -242,7 +258,7 @@ module moddynBlog {
             that.drawLine(svg, ele, data, color, x, y, line, dateProp, valueProp, height, true);
             that.updateChart(svg, data, x, y, valueProp, line, xAxis, yAxis);
           }
-          
+
         });
     }
 

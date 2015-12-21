@@ -4,7 +4,17 @@ module moddynBlog {
   export class d3HelperService {
 
     /** @ngInject */
-    constructor(private $http: any) {}
+    constructor(private $http: any, private $rootScope: any) {
+      var that = this;
+      $(window).resize(function() {
+
+        if (this.innerWidth < 992) {
+          $rootScope.$emit('window_resize_to_mobile', this.innerWidth);
+        } else {
+          $rootScope.$emit('window_resize_to_desktop', this.innerWidth);
+        }
+      });
+    }
 
     public removeSVGOnDestroy(svg: any, d3: any) {
       svg.selectAll("*").remove();
@@ -12,12 +22,16 @@ module moddynBlog {
     }
 
     public createSVG(d3, width, height, margin, ele, cssClass) {
+      height = height + margin.top + margin.bottom;
+      width = width + margin.left + margin.right;
       var svg = d3.select(ele[0]).append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("height", height)
+        .attr('width', '100%')
         .attr("class", cssClass)
-        .append("g")
+
+      svg.append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
       return svg;
     }
 

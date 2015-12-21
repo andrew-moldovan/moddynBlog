@@ -1,10 +1,27 @@
 {
     "compilerOptions": {
-        "out": "built/out.js", 
-        "sourceMap": true, 
+        "out": "built/out.js",
+        "sourceMap": true,
         "target": "es5"
-    }, 
+    },
+    "compileOnSave" : false,
+    "atom": {
+      "rewriteTsconfig": false
+    },
     "files": [
-        "src/app/main/main.controller.ts"
+        "src/app/index.module.ts",
+        "src/app/index.config.ts",
+        "src/app/index.route.ts",
+        "src/app/index.run.ts",
+        "src/app/main/main.controller.ts",
+        "src/app/components/d3/bar-chart.directive.ts",
+        "src/app/components/d3/line-chart.directive.ts",
+        "src/app/components/d3/d3.service.ts",
+        "src/app/components/d3/d3BarChartHelper.service.ts",
+        "src/app/components/d3/d3Helper.service.ts",
+        "src/app/components/d3/d3MultiLineChartHelper.service.ts",
+        "src/app/components/navbar.directive.ts",
+        "src/app/components/posts/milk/milk.controller.ts",
+        ".tmp/typings/tsd.d.ts"
     ]
 }
